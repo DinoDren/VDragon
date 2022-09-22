@@ -1,4 +1,5 @@
 
+
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local LeftSide = Instance.new("Frame")
@@ -13,86 +14,122 @@ local UICorner_4 = Instance.new("UICorner")
 local CreditsButton = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local UICorner_6 = Instance.new("UICorner")
-local UpSide = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
+local AnimationsButton = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
+local UpSide = Instance.new("Frame")
 local UICorner_8 = Instance.new("UICorner")
-local Useless = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
 local UICorner_9 = Instance.new("UICorner")
-local CreditsF = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local Useless = Instance.new("Frame")
 local UICorner_11 = Instance.new("UICorner")
-local TextLabel_3 = Instance.new("TextLabel")
+local CreditsF = Instance.new("Frame")
 local UICorner_12 = Instance.new("UICorner")
-local ExtraF = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
 local UICorner_13 = Instance.new("UICorner")
-local AutoF = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local Shazam = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local Crash = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local LocationsF = Instance.new("Frame")
-local UICorner_17 = Instance.new("UICorner")
-local bat = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local admin = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local bank = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local boxing = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local HoodF = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local gunU = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local gunD = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local ufo = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
-local Prison = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local LocalF = Instance.new("Frame")
-local UICorner_28 = Instance.new("UICorner")
-local fly = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
-local reachy = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
-local toolR = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
-local Aimbot = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local Aimlock = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
-local NoDelay = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
-local NoSlow = Instance.new("TextButton")
-local UICorner_35 = Instance.new("UICorner")
-local NoRecoil = Instance.new("TextButton")
-local UICorner_36 = Instance.new("UICorner")
-local GodM = Instance.new("TextButton")
-local UICorner_37 = Instance.new("UICorner")
-local BulletP = Instance.new("TextButton")
-local UICorner_38 = Instance.new("UICorner")
-local WelcomeF = Instance.new("Frame")
-local UICorner_39 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local ExtraF = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local AutoF = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Shazam = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Crash = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local LocationsF = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local bat = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local admin = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local bank = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local boxing = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local HoodF = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local gunU = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local gunD = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local ufo = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Prison = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Sewers = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local LocalF = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local fly = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local reachy = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local toolR = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Aimlock = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local NoDelay = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local NoSlow = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local NoRecoil = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local GodM = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local BulletP = Instance.new("TextButton")
 local UICorner_40 = Instance.new("UICorner")
-local Update = Instance.new("Frame")
-local TextLabel_5 = Instance.new("TextLabel")
+local WelcomeF = Instance.new("Frame")
 local UICorner_41 = Instance.new("UICorner")
-local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
 local UICorner_42 = Instance.new("UICorner")
-local Update_2 = Instance.new("Frame")
-local TextLabel_7 = Instance.new("TextLabel")
+local Update = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
 local UICorner_43 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
 local UICorner_44 = Instance.new("UICorner")
-local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
 local UICorner_45 = Instance.new("UICorner")
+local Update_2 = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local UICorner_46 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local UICorner_47 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local UICorner_48 = Instance.new("UICorner")
+local AnimationsF = Instance.new("Frame")
+local UICorner_49 = Instance.new("UICorner")
+local Zombie = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local Astronaut = Instance.new("TextButton")
+local UICorner_51 = Instance.new("UICorner")
+local Toy = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
+local Stylish = Instance.new("TextButton")
+local UICorner_53 = Instance.new("UICorner")
+local Rthro = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local Robot = Instance.new("TextButton")
+local UICorner_55 = Instance.new("UICorner")
+local OldSchool = Instance.new("TextButton")
+local UICorner_56 = Instance.new("UICorner")
+local Cartoony = Instance.new("TextButton")
+local UICorner_57 = Instance.new("UICorner")
+local Ninja = Instance.new("TextButton")
+local UICorner_58 = Instance.new("UICorner")
+local Bubbly = Instance.new("TextButton")
+local UICorner_59 = Instance.new("UICorner")
+local Mage = Instance.new("TextButton")
+local UICorner_60 = Instance.new("UICorner")
+local Elder = Instance.new("TextButton")
+local UICorner_61 = Instance.new("UICorner")
+local Werewolf = Instance.new("TextButton")
+local UICorner_62 = Instance.new("UICorner")
+local Levi = Instance.new("TextButton")
+local UICorner_63 = Instance.new("UICorner")
 
 --Properties:
 
@@ -150,7 +187,7 @@ UICorner_3.Parent = LocationsButton
 ExtraButton.Name = "ExtraButton"
 ExtraButton.Parent = LeftSide
 ExtraButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
-ExtraButton.Position = UDim2.new(0, 0, 0.465671659, 0)
+ExtraButton.Position = UDim2.new(0, 0, 0.614925385, 0)
 ExtraButton.Size = UDim2.new(0, 100, 0, 38)
 ExtraButton.Font = Enum.Font.SourceSans
 ExtraButton.Text = "Extra"
@@ -162,7 +199,7 @@ UICorner_4.Parent = ExtraButton
 CreditsButton.Name = "CreditsButton"
 CreditsButton.Parent = LeftSide
 CreditsButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
-CreditsButton.Position = UDim2.new(0, 0, 0.614925385, 0)
+CreditsButton.Position = UDim2.new(0, 0, 0.773134291, 0)
 CreditsButton.Size = UDim2.new(0, 100, 0, 38)
 CreditsButton.Font = Enum.Font.SourceSans
 CreditsButton.Text = "Credits"
@@ -173,32 +210,55 @@ UICorner_5.Parent = CreditsButton
 
 UICorner_6.Parent = LeftSide
 
+AnimationsButton.Name = "AnimationsButton"
+AnimationsButton.Parent = LeftSide
+AnimationsButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+AnimationsButton.Position = UDim2.new(0, 0, 0.462686598, 0)
+AnimationsButton.Size = UDim2.new(0, 100, 0, 38)
+AnimationsButton.Font = Enum.Font.SourceSans
+AnimationsButton.Text = "Animations"
+AnimationsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimationsButton.TextSize = 20.000
+
+UICorner_7.Parent = AnimationsButton
+
 UpSide.Name = "UpSide"
 UpSide.Parent = main
 UpSide.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
 UpSide.Position = UDim2.new(0.166112959, 0, 0, 0)
 UpSide.Size = UDim2.new(0, 502, 0, 64)
 
+UICorner_8.Parent = UpSide
+
 TextLabel.Parent = UpSide
 TextLabel.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
-TextLabel.Position = UDim2.new(0.258964151, 0, 0.109375, 0)
-TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Position = UDim2.new(0.280876517, 0, 0.109375, 0)
+TextLabel.Size = UDim2.new(0, 143, 0, 50)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "VDragon"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextSize = 25.000
-TextLabel.TextWrapped = true
+TextLabel.Text = "VDra"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextSize = 28.000
 
-UICorner_7.Parent = TextLabel
+UICorner_9.Parent = TextLabel
 
-UICorner_8.Parent = UpSide
+TextLabel_2.Parent = UpSide
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.458167315, 0, 0.109375, 0)
+TextLabel_2.Size = UDim2.new(0, 41, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "gon"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_2.TextSize = 28.000
+
+UICorner_10.Parent = TextLabel_2
 
 Useless.Name = "Useless"
 Useless.Parent = main
 Useless.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 Useless.Size = UDim2.new(0, 602, 0, 7)
 
-UICorner_9.Parent = Useless
+UICorner_11.Parent = Useless
 
 CreditsF.Name = "CreditsF"
 CreditsF.Parent = main
@@ -207,29 +267,29 @@ CreditsF.Position = UDim2.new(0.166112959, 0, 0.191044778, 0)
 CreditsF.Size = UDim2.new(0, 502, 0, 271)
 CreditsF.Visible = false
 
-UICorner_10.Parent = CreditsF
-
-TextLabel_2.Parent = CreditsF
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-TextLabel_2.Position = UDim2.new(0.213147417, 0, 0.0664206669, 0)
-TextLabel_2.Size = UDim2.new(0, 244, 0, 50)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Made By RandomAccount124542"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextSize = 18.000
-
-UICorner_11.Parent = TextLabel_2
+UICorner_12.Parent = CreditsF
 
 TextLabel_3.Parent = CreditsF
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-TextLabel_3.Position = UDim2.new(0.213147417, 0, 0.479704797, 0)
+TextLabel_3.Position = UDim2.new(0.213147417, 0, 0.0664206669, 0)
 TextLabel_3.Size = UDim2.new(0, 244, 0, 50)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Helpers: None"
+TextLabel_3.Text = "Made By RandomAccount124542"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 18.000
 
-UICorner_12.Parent = TextLabel_3
+UICorner_13.Parent = TextLabel_3
+
+TextLabel_4.Parent = CreditsF
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel_4.Position = UDim2.new(0.213147417, 0, 0.479704797, 0)
+TextLabel_4.Size = UDim2.new(0, 244, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Helpers: None"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 18.000
+
+UICorner_14.Parent = TextLabel_4
 
 ExtraF.Name = "ExtraF"
 ExtraF.Parent = main
@@ -238,7 +298,7 @@ ExtraF.Position = UDim2.new(0.166112959, 0, 0.191044778, 0)
 ExtraF.Size = UDim2.new(0, 502, 0, 271)
 ExtraF.Visible = false
 
-UICorner_13.Parent = ExtraF
+UICorner_15.Parent = ExtraF
 
 AutoF.Name = "AutoF"
 AutoF.Parent = ExtraF
@@ -248,51 +308,8 @@ AutoF.Font = Enum.Font.SourceSans
 AutoF.Text = "AutoFarm"
 AutoF.TextColor3 = Color3.fromRGB(0, 0, 0)
 AutoF.TextSize = 17.000
-AutoF.MouseButton1Down:connect(function()
-	-- Made by Vincent2323 
-	-- https://forum.robloxscripts.com/member.php?action=profile&uid=15861
-	-- As always, fully open source. Please share this script (:
 
-	local humanoid = game.Players.LocalPlayer.Character.Humanoid
-	local tool = game.Players.LocalPlayer.Backpack.Combat
-
-	local function getMoneyAroundMe() 
-		wait(0.5)
-		for i, money in ipairs(game.Workspace.Ignored.Drop:GetChildren()) do
-			if money.Name == "MoneyDrop" and (money.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= 20 then
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = money.CFrame
-				fireclickdetector(money.ClickDetector)
-				wait(0.5)
-			end  
-		end
-	end
-
-
-	local function startAutoFarm() 
-		humanoid:EquipTool(tool)
-
-		for i, v in ipairs(game.Workspace.Cashiers:GetChildren()) do
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Open.CFrame * CFrame.new(0, 0, 2)
-
-			for i = 0, 15 do
-				wait(0.5)
-				tool:Activate()
-			end
-
-			getMoneyAroundMe()
-
-		end
-
-
-
-		wait(0.5)
-
-	end
-
-	startAutoFarm()
-end)
-
-UICorner_14.Parent = AutoF
+UICorner_16.Parent = AutoF
 
 Shazam.Name = "Shazam"
 Shazam.Parent = ExtraF
@@ -303,118 +320,8 @@ Shazam.Font = Enum.Font.SourceSans
 Shazam.Text = "Shazam Fly (C)"
 Shazam.TextColor3 = Color3.fromRGB(0, 0, 0)
 Shazam.TextSize = 17.000
-Shazam.MouseButton1Down:connect(function()
-	repeat wait() 
-	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
-	local mouse = game.Players.LocalPlayer:GetMouse() 
-	repeat wait() until mouse
-	local plr = game.Players.LocalPlayer 
-	local torso = plr.Character.Head 
-	local flying = false
-	local deb = true 
-	local ctrl = {f = 0, b = 0, l = 0, r = 0} 
-	local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
-	local maxspeed = 5000
-	local speed = 5000 
-	local hover = Instance.new("Animation", game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"))hover.Name="Hover"hover.AnimationId="rbxassetid://3541114300"
-	local fly = Instance.new("Animation", game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"))fly.Name="Fly"fly.AnimationId = "rbxassetid://3541044388"
 
-	function Fly() 
-		local bg = Instance.new("BodyGyro", torso) 
-		bg.P = 9e4 
-		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
-		bg.cframe = torso.CFrame 
-		local bv = Instance.new("BodyVelocity", torso) 
-		bv.velocity = Vector3.new(0,0.1,0) 
-		bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
-		repeat wait() 
-			plr.Character.Humanoid.PlatformStand = true 
-			if ctrl.l + ctrl.r ~= 100000 or ctrl.f + ctrl.b ~= 10000 then 
-				speed = speed+.0+(speed/maxspeed) 
-				if speed > maxspeed then 
-					speed = maxspeed 
-				end 
-			elseif not (ctrl.l + ctrl.r ~= 5 or ctrl.f + ctrl.b ~= 5) and speed ~= 5 then 
-				speed = speed-5
-				if speed > 5 then 
-					speed = -2 
-				end 
-			end 
-			if (ctrl.l + ctrl.r) ~= 5 or (ctrl.f + ctrl.b) ~= 5 then 
-				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
-				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
-			elseif (ctrl.l + ctrl.r) == 5 and (ctrl.f + ctrl.b) == 5 and speed ~= 5 then 
-				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
-			else 
-				bv.velocity = Vector3.new(0,0.1,0) 
-			end 
-			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
-		until not flying 
-		for _, v in next, game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):GetPlayingAnimationTracks() do
-			if (v.Animation.AnimationId:match("rbxassetid")) then
-				v:Stop()
-			end
-		end
-		ctrl = {f = 0, b = 0, l = 0, r = 0} 
-		lastctrl = {f = 0, b = 0, l = 0, r = 0} 
-		speed = 5 
-		bg:Destroy() 
-		bv:Destroy() 
-		plr.Character.Humanoid.PlatformStand = false 
-	end 
-	mouse.KeyDown:connect(function(key) 
-		if key:lower() == "c" then 
-			if flying then flying = false 
-			else 
-				flying = true
-				plr.Character.Humanoid:LoadAnimation(hover):Play()
-				Fly() 
-			end
-		elseif key:lower() == "w" then 
-			ctrl.f = 20
-			wait()
-			if flying == true then
-				plr.Character.Humanoid:LoadAnimation(fly):Play()
-			end
-		elseif key:lower() == "s" then
-			ctrl.b = -20
-		elseif key:lower() == "a" then
-			ctrl.l = -20
-		elseif key:lower() == "d" then
-			ctrl.r = 20
-		end 
-	end) 
-	mouse.KeyUp:connect(function(key) 
-		if key:lower() == "w" then
-			ctrl.f = 0
-			wait()
-			if flying == true then
-				plr.Character.Humanoid:LoadAnimation(hover):Play()
-			end
-		elseif key:lower() == "s" then 
-			ctrl.b = 0
-			wait()
-			if flying == true then
-				plr.Character.Humanoid:LoadAnimation(hover):Play()
-			end
-		elseif key:lower() == "a" then 
-			ctrl.l = 0
-			wait()
-			if flying == true then
-				plr.Character.Humanoid:LoadAnimation(hover):Play()
-			end
-		elseif key:lower() == "d" then 
-			ctrl.r = 0
-			wait()
-			if flying == true then
-				plr.Character.Humanoid:LoadAnimation(hover):Play()
-			end
-		end 
-	end)
-	Fly()
-end)
-
-UICorner_15.Parent = Shazam
+UICorner_17.Parent = Shazam
 
 Crash.Name = "Crash"
 Crash.Parent = ExtraF
@@ -425,11 +332,8 @@ Crash.Font = Enum.Font.SourceSans
 Crash.Text = "Crash Server"
 Crash.TextColor3 = Color3.fromRGB(0, 0, 0)
 Crash.TextSize = 17.000
-Crash.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
-end)
 
-UICorner_16.Parent = Crash
+UICorner_18.Parent = Crash
 
 LocationsF.Name = "LocationsF"
 LocationsF.Parent = main
@@ -438,7 +342,7 @@ LocationsF.Position = UDim2.new(0.166112959, 0, 0.191044778, 0)
 LocationsF.Size = UDim2.new(0, 502, 0, 271)
 LocationsF.Visible = false
 
-UICorner_17.Parent = LocationsF
+UICorner_19.Parent = LocationsF
 
 bat.Name = "bat"
 bat.Parent = LocationsF
@@ -448,11 +352,8 @@ bat.Font = Enum.Font.SourceSans
 bat.Text = "Bat Area"
 bat.TextColor3 = Color3.fromRGB(0, 0, 0)
 bat.TextSize = 17.000
-bat.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-82.86, 22.244, -291.56)
-end)
 
-UICorner_18.Parent = bat
+UICorner_20.Parent = bat
 
 admin.Name = "admin"
 admin.Parent = LocationsF
@@ -463,11 +364,8 @@ admin.Font = Enum.Font.SourceSans
 admin.Text = "Admin Area"
 admin.TextColor3 = Color3.fromRGB(0, 0, 0)
 admin.TextSize = 17.000
-admin.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-729.895, -37.642, -885.8)
-end)
 
-UICorner_19.Parent = admin
+UICorner_21.Parent = admin
 
 bank.Name = "bank"
 bank.Parent = LocationsF
@@ -478,11 +376,8 @@ bank.Font = Enum.Font.SourceSans
 bank.Text = "Bank Area"
 bank.TextColor3 = Color3.fromRGB(0, 0, 0)
 bank.TextSize = 17.000
-bank.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-485.668, 23.631, -285.169)
-end)
 
-UICorner_20.Parent = bank
+UICorner_22.Parent = bank
 
 boxing.Name = "boxing"
 boxing.Parent = LocationsF
@@ -493,11 +388,8 @@ boxing.Font = Enum.Font.SourceSans
 boxing.Text = "Boxing Area"
 boxing.TextColor3 = Color3.fromRGB(0, 0, 0)
 boxing.TextSize = 17.000
-boxing.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-236.006, 23.151, -1120.531)
-end)
 
-UICorner_21.Parent = boxing
+UICorner_23.Parent = boxing
 
 HoodF.Name = "HoodF"
 HoodF.Parent = LocationsF
@@ -508,11 +400,8 @@ HoodF.Font = Enum.Font.SourceSans
 HoodF.Text = "Hood Fitness Area"
 HoodF.TextColor3 = Color3.fromRGB(0, 0, 0)
 HoodF.TextSize = 17.000
-HoodF.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-75.795, 23.701, -633.72)
-end)
 
-UICorner_22.Parent = HoodF
+UICorner_24.Parent = HoodF
 
 gunU.Name = "gunU"
 gunU.Parent = LocationsF
@@ -523,11 +412,8 @@ gunU.Font = Enum.Font.SourceSans
 gunU.Text = "Gun Area 1"
 gunU.TextColor3 = Color3.fromRGB(0, 0, 0)
 gunU.TextSize = 17.000
-gunU.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(481, 48, -619)
-end)
 
-UICorner_23.Parent = gunU
+UICorner_25.Parent = gunU
 
 gunD.Name = "gunD"
 gunD.Parent = LocationsF
@@ -538,11 +424,8 @@ gunD.Font = Enum.Font.SourceSans
 gunD.Text = "Gun Area 2"
 gunD.TextColor3 = Color3.fromRGB(0, 0, 0)
 gunD.TextSize = 17.000
-gunD.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-582, 7.172, -739.015)
-end)
 
-UICorner_24.Parent = gunD
+UICorner_26.Parent = gunD
 
 ufo.Name = "ufo"
 ufo.Parent = LocationsF
@@ -553,11 +436,8 @@ ufo.Font = Enum.Font.SourceSans
 ufo.Text = "Ufo Area"
 ufo.TextColor3 = Color3.fromRGB(0, 0, 0)
 ufo.TextSize = 17.000
-ufo.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(71.565, 142.926, -690.33)
-end)
 
-UICorner_25.Parent = ufo
+UICorner_27.Parent = ufo
 
 Prison.Name = "Prison"
 Prison.Parent = LocationsF
@@ -568,26 +448,20 @@ Prison.Font = Enum.Font.SourceSans
 Prison.Text = "Prison Area"
 Prison.TextColor3 = Color3.fromRGB(0, 0, 0)
 Prison.TextSize = 17.000
-Prison.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-294.162, 22.644, -111.716)
-end)
 
+UICorner_28.Parent = Prison
 
-UICorner_26.Parent = Prison
+Sewers.Name = "Sewers"
+Sewers.Parent = LocationsF
+Sewers.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Sewers.Position = UDim2.new(0, 0, 0.664206624, 0)
+Sewers.Size = UDim2.new(0, 172, 0, 43)
+Sewers.Font = Enum.Font.SourceSans
+Sewers.Text = "Sewers Area (Not Working)"
+Sewers.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sewers.TextSize = 17.000
 
-TextButton.Parent = LocationsF
-TextButton.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-TextButton.Position = UDim2.new(0, 0, 0.664206624, 0)
-TextButton.Size = UDim2.new(0, 172, 0, 43)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Sewers Area"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 17.000
-TextButton.MouseButton1Down:connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112.622, -26.212, -277.321)
-end)
-
-UICorner_27.Parent = TextButton
+UICorner_29.Parent = Sewers
 
 LocalF.Name = "LocalF"
 LocalF.Parent = main
@@ -596,7 +470,7 @@ LocalF.Position = UDim2.new(0.166112959, 0, 0.191044778, 0)
 LocalF.Size = UDim2.new(0, 502, 0, 271)
 LocalF.Visible = false
 
-UICorner_28.Parent = LocalF
+UICorner_30.Parent = LocalF
 
 fly.Name = "fly"
 fly.Parent = LocalF
@@ -606,202 +480,8 @@ fly.Font = Enum.Font.SourceSans
 fly.Text = "Fly (X)"
 fly.TextColor3 = Color3.fromRGB(0, 0, 0)
 fly.TextSize = 18.000
-fly.MouseButton1Down:connect(function()
-	local L_152_
-	local L_153_ = game.Players.LocalPlayer
-	IYMouse = L_153_:GetMouse()
-	IYMouse.KeyDown:connect(
-		function(L_154_arg0)
-			if L_154_arg0 == "x" then
-				if L_152_ then
-					L_152_ = false
-					fly()
-				else
-					L_152_ = true
-					NOFLY()
-				end
-			end
-		end
-	)
-	for L_155_forvar0, L_156_forvar1 in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-		if L_156_forvar1:IsA("BasePart") and L_156_forvar1.CanCollide == true then
-			L_156_forvar1.CanCollide = false
-		end
-	end
-	FLYING = false
-	QEfly = true
-	iyflyspeed = 7
-	vehicleflyspeed = 7
-	function sFLY(L_157_arg0)
-		repeat
-			wait()
-		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and
-			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
-		repeat
-			wait()
-		until IYMouse
-		local L_158_ = game.Players.LocalPlayer.Character.LowerTorso
-		local L_159_ = {
-			F = 0,
-			B = 0,
-			L = 0,
-			R = 0,
-			Q = 0,
-			E = 0
-		}
-		local L_160_ = {
-			F = 0,
-			B = 0,
-			L = 0,
-			R = 0,
-			Q = 0,
-			E = 0
-		}
-		local L_161_ = 5
-		local function L_162_func()
-			FLYING = true
-			local L_163_ = Instance.new("BodyGyro", L_158_)
-			local L_164_ = Instance.new("BodyVelocity", L_158_)
-			L_163_.P = 9e4
-			L_163_.maxTorque = Vector3.new(9e9, 9e9, 9e9)
-			L_163_.cframe = L_158_.CFrame
-			L_164_.velocity = Vector3.new(0, 0, 0)
-			L_164_.maxForce = Vector3.new(9e9, 9e9, 9e9)
-			spawn(
-				function()
-					repeat
-						wait()
-						if not L_157_arg0 and game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then
-							game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand =
-								true
-						end
-						if L_159_.L + L_159_.R ~= 0 or L_159_.F + L_159_.B ~= 0 or L_159_.Q + L_159_.E ~= 0 then
-							L_161_ = 50
-						elseif not (L_159_.L + L_159_.R ~= 0 or L_159_.F + L_159_.B ~= 0 or L_159_.Q + L_159_.E ~= 0) and L_161_ ~= 0 then
-							L_161_ = 0
-						end
-						if L_159_.L + L_159_.R ~= 0 or L_159_.F + L_159_.B ~= 0 or L_159_.Q + L_159_.E ~= 0 then
-							L_164_.velocity =
-								(workspace.CurrentCamera.CoordinateFrame.lookVector * (L_159_.F + L_159_.B) +
-									workspace.CurrentCamera.CoordinateFrame *
-									CFrame.new(L_159_.L + L_159_.R, (L_159_.F + L_159_.B + L_159_.Q + L_159_.E) * 0.2, 0).p -
-									workspace.CurrentCamera.CoordinateFrame.p) *
-								L_161_
-							L_160_ = {
-								F = L_159_.F,
-								B = L_159_.B,
-								L = L_159_.L,
-								R = L_159_.R
-							}
-						elseif L_159_.L + L_159_.R == 0 and L_159_.F + L_159_.B == 0 and L_159_.Q + L_159_.E == 0 and L_161_ ~= 0 then
-							L_164_.velocity =
-								(workspace.CurrentCamera.CoordinateFrame.lookVector * (L_160_.F + L_160_.B) +
-									workspace.CurrentCamera.CoordinateFrame *
-									CFrame.new(L_160_.L + L_160_.R, (L_160_.F + L_160_.B + L_159_.Q + L_159_.E) * 0.2, 0).p -
-									workspace.CurrentCamera.CoordinateFrame.p) *
-								L_161_
-						else
-							L_164_.velocity = Vector3.new(0, 0, 0)
-						end
-						L_163_.cframe = workspace.CurrentCamera.CoordinateFrame
-					until not FLYING
-					L_159_ = {
-						F = 0,
-						B = 0,
-						L = 0,
-						R = 0,
-						Q = 0,
-						E = 0
-					}
-					L_160_ = {
-						F = 0,
-						B = 0,
-						L = 0,
-						R = 0,
-						Q = 0,
-						E = 0
-					}
-					L_161_ = 0
-					L_163_:destroy()
-					L_164_:destroy()
-					if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then
-						game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand = false
-					end
-				end
-			)
-		end
-		IYMouse.KeyDown:connect(
-			function(L_165_arg0)
-				if L_165_arg0:lower() == "w" then
-					if L_157_arg0 then
-						L_159_.F = vehicleflyspeed
-					else
-						L_159_.F = iyflyspeed
-					end
-				elseif L_165_arg0:lower() == "s" then
-					if L_157_arg0 then
-						L_159_.B = -vehicleflyspeed
-					else
-						L_159_.B = -iyflyspeed
-					end
-				elseif L_165_arg0:lower() == "a" then
-					if L_157_arg0 then
-						L_159_.L = -vehicleflyspeed
-					else
-						L_159_.L = -iyflyspeed
-					end
-				elseif L_165_arg0:lower() == "d" then
-					if L_157_arg0 then
-						L_159_.R = vehicleflyspeed
-					else
-						L_159_.R = iyflyspeed
-					end
-				elseif QEfly and L_165_arg0:lower() == "e" then
-					if L_157_arg0 then
-						L_159_.Q = vehicleflyspeed * 2
-					else
-						L_159_.Q = iyflyspeed * 2
-					end
-				elseif QEfly and L_165_arg0:lower() == "q" then
-					if L_157_arg0 then
-						L_159_.E = -vehicleflyspeed * 2
-					else
-						L_159_.E = -iyflyspeed * 2
-					end
-				end
-			end
-		)
-		IYMouse.KeyUp:connect(
-			function(L_166_arg0)
-				if L_166_arg0:lower() == "w" then
-					L_159_.F = 0
-				elseif L_166_arg0:lower() == "s" then
-					L_159_.B = 0
-				elseif L_166_arg0:lower() == "a" then
-					L_159_.L = 0
-				elseif L_166_arg0:lower() == "d" then
-					L_159_.R = 0
-				elseif L_166_arg0:lower() == "e" then
-					L_159_.Q = 0
-				elseif L_166_arg0:lower() == "q" then
-					L_159_.E = 0
-				end
-			end
-		)
-		L_162_func()
-	end
-	function NOFLY()
-		FLYING = false
-		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand = true
-	end
-	function fly()
-		NOFLY()
-		wait()
-		sFLY()
-	end
-end)
 
-UICorner_29.Parent = fly
+UICorner_31.Parent = fly
 
 reachy.Name = "reachy"
 reachy.Parent = LocalF
@@ -812,45 +492,8 @@ reachy.Font = Enum.Font.SourceSans
 reachy.Text = "Reach"
 reachy.TextColor3 = Color3.fromRGB(0, 0, 0)
 reachy.TextSize = 18.000
-reachy.MouseButton1Down:connect(function()
-	LP = game.Players.LocalPlayer
-	for i,v in ipairs(LP.Character:GetDescendants()) do
-		if v:IsA("MeshPart") then v.Massless = true
-			v.CanCollide = false
-			v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0)
 
-		end
-	end
-
-	for i,v in ipairs(game.workspace:GetDescendants()) do
-		if v:IsA("Seat") then 
-			v.Disabled = true
-		end
-	end
-	x = 35
-	y = 35
-	z = 35
-
-
-	penis = Vector3.new(x,y,z)
-
-	LP.Character.RightHand.Size = penis
-
-	LP.Character.RightHand.Transparency = 1
-	local selectionBox = Instance.new("SelectionBox",LP.Character.RightHand)
-	selectionBox.Adornee = LP.Character.RightHand
-	selectionBox.Color3 = Color3.new(0,0,0)
-
-	LP.Character.LeftHand.Size = penis
-	LP.Character.BodyEffects.SpecialParts.LeftHand.Size = penis
-
-	LP.Character.LeftHand.Transparency = 1
-	local selectionBox = Instance.new("SelectionBox",LP.Character.LeftHand)
-	selectionBox.Adornee = LP.Character.LeftHand
-	selectionBox.Color3 = Color3.new(0,0,0)
-end)
-
-UICorner_30.Parent = reachy
+UICorner_32.Parent = reachy
 
 toolR.Name = "toolR"
 toolR.Parent = LocalF
@@ -861,19 +504,8 @@ toolR.Font = Enum.Font.SourceSans
 toolR.Text = "Tool Reach"
 toolR.TextColor3 = Color3.fromRGB(0, 0, 0)
 toolR.TextSize = 18.000
-toolR.MouseButton1Down:connect(function()
-	for i, v in pairs(game:GetService"Players".LocalPlayer.Character:GetChildren()) do
-		if v:isA("Tool") then
-			local a = Instance.new("SelectionBox", v.Handle)
-			a.Adornee = v.Handle
-			v.Handle.Size = Vector3.new(50, 50, 50)
-			v.Handle.Transparency = 1
-			v.GripPos = Vector3.new(0, 0, 0)
-		end
-	end
-end)
 
-UICorner_31.Parent = toolR
+UICorner_33.Parent = toolR
 
 Aimbot.Name = "Aimbot"
 Aimbot.Parent = LocalF
@@ -884,212 +516,8 @@ Aimbot.Font = Enum.Font.SourceSans
 Aimbot.Text = "AimBot"
 Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
 Aimbot.TextSize = 18.000
-Aimbot.MouseButton1Down:connect(function()
 
-
-	-- Toggle
-	getgenv().Target = true
-	-- Configuration
-	getgenv().Key = Enum.KeyCode.Q
-	getgenv().Prediction = 0.1377
-	getgenv().ChatMode = false
-	getgenv().NotifMode = true
-	getgenv().PartMode = true
-	getgenv().AirshotFunccc = false
-	getgenv().Partz = "HumanoidRootPart"
-	getgenv().AutoPrediction = true
-	--
-	_G.Types = {
-		Ball = Enum.PartType.Ball,
-		Block = Enum.PartType.Block, 
-		Cylinder = Enum.PartType.Cylinder
-	}
-
-	--variables                 
-	local Tracer = Instance.new("Part", game.Workspace)
-	Tracer.Name = "gay"	
-	Tracer.Anchored = true		
-	Tracer.CanCollide = false
-	Tracer.Transparency = 0.8
-	Tracer.Parent = game.Workspace	
-	Tracer.Shape = _G.Types.Block
-	Tracer.Size = Vector3.new(10,10,10)
-	Tracer.Color = Color3.fromRGB(199,128,128)
-
-	--
-	local plr = game.Players.LocalPlayer
-	local mouse = plr:GetMouse()
-	local Runserv = game:GetService("RunService")
-
-	circle = Drawing.new("Circle")
-	circle.Color = Color3.fromRGB(0,0,174)
-	circle.Thickness = 0
-	circle.NumSides = 732
-	circle.Radius = 120
-	circle.Thickness = 0
-	circle.Transparency = 0.7
-	circle.Visible = true
-	circle.Filled = false
-
-	Runserv.RenderStepped:Connect(function()
-		circle.Position = Vector2.new(mouse.X,mouse.Y+35)
-	end)
-
-	local guimain = Instance.new("Folder", game.CoreGui)
-	local CC = game:GetService"Workspace".CurrentCamera
-	local LocalMouse = game.Players.LocalPlayer:GetMouse()
-	local Locking = false
-
-
-	--
-	if getgenv().valiansh == true then
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "VDragon Lock",
-			Text = "Already Loaded!",
-			Duration = 5
-
-		})
-		return
-	end
-
-	getgenv().valiansh = true
-
-	local UserInputService = game:GetService("UserInputService")
-
-	UserInputService.InputBegan:Connect(function(keygo,ok)
-		if (not ok) then
-			if (keygo.KeyCode == getgenv().Key) then
-				if getgenv().Target == true then
-					Locking = not Locking
-
-					if Locking then
-						Plr =  getClosestPlayerToCursor()
-						if getgenv().ChatMode then
-							local A_1 = "Target: "..tostring(Plr.Character.Humanoid.DisplayName) local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
-						end	
-						if getgenv().NotifMode then
-							game.StarterGui:SetCore("SendNotification", {
-								Title = "VDragon";
-								Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName);
-
-							})
-						end
-					elseif not Locking then
-						if getgenv().ChatMode then
-							local A_1 = "Unlocked!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
-						end	
-						if getgenv().NotifMode then
-							game.StarterGui:SetCore("SendNotification", {
-								Title = "VDragon",
-								Text = "Unlocked",
-								Duration = 5
-							})
-						elseif getgenv().Target == false then
-							game.StarterGui:SetCore("SendNotification", {
-								Title = "VDragon",
-								Text = "Target isn't enabled",
-								Duration = 5
-
-							})
-
-						end
-
-
-					end     end   
-			end
-		end
-	end)
-
-	function getClosestPlayerToCursor()
-		local closestPlayer
-		local shortestDistance = circle.Radius
-
-		for i, v in pairs(game.Players:GetPlayers()) do
-			if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("LowerTorso") then
-				local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
-				local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(LocalMouse.X, LocalMouse.Y)).magnitude
-				if magnitude < shortestDistance then
-					closestPlayer = v
-					shortestDistance = magnitude
-				end
-			end
-		end
-		return closestPlayer
-	end
-	--
-	if getgenv().PartMode then
-		game:GetService"RunService".Stepped:connect(function()
-			if Locking and Plr.Character and Plr.Character:FindFirstChild("LowerTorso") then
-				Tracer.CFrame = CFrame.new(Plr.Character.LowerTorso.Position+(Plr.Character.LowerTorso.Velocity*Prediction))
-			else
-				Tracer.CFrame = CFrame.new(0, 9999, 0)
-
-			end
-		end)
-	end
-
-
-
-	--
-	local rawmetatable = getrawmetatable(game)
-	local old = rawmetatable.__namecall
-	setreadonly(rawmetatable, false)
-	rawmetatable.__namecall = newcclosure(function(...)
-		local args = {...}
-		if Locking and getnamecallmethod() == "FireServer" and args[2] == "UpdateMousePos" then
-			args[3] = Plr.Character[getgenv().Partz].Position+(Plr.Character[getgenv().Partz].Velocity*Prediction)
-			return old(unpack(args))
-		end
-		return old(...)
-	end)
-
-
-	if getgenv().AirshotFunccc == true then
-
-		if Plr.Character.Humanoid.Jump == true and Plr.Character.Humanoid.FloorMaterial == Enum.Material.Air then
-			getgenv().Partz = "HumanoidRootPart"
-		else
-			Plr.Character:WaitForChild("Humanoid").StateChanged:Connect(function(old,new)
-				if new == Enum.HumanoidStateType.Freefall then
-					getgenv().Partz = "LowerTorso"
-				else
-					getgenv().Partz = "LowerTorso"
-				end
-			end)
-		end
-	end
-	---
-	while wait() do
-		if getgenv().AutoPrediction == true then
-			local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
-			local split = string.split(pingvalue,'(')
-			local ping = tonumber(split[1])
-			if ping < 130 then
-				getgenv().Prediction = 0.174
-			elseif ping < 125 then
-				getgenv().Prediction = 0.15786
-			elseif ping < 110 then
-				getgenv().Prediction = 0.146588
-			elseif ping < 105 then
-				getgenv().Prediction = 0.129987780976
-			elseif ping < 90 then
-				getgenv().Prediction = 0.12976568785
-			elseif ping < 80 then
-				getgenv().Prediction = 0.136
-			elseif ping < 70 then
-				getgenv().Prediction = 0.13176
-			elseif ping < 60 then
-				getgenv().Prediction = 0.12776766556
-			elseif ping < 50 then
-				getgenv().Prediction = 0.1248988987
-			elseif ping < 40 then
-				getgenv().Prediction = 0.1226767676
-			end
-		end
-	end
-end)
-
-UICorner_32.Parent = Aimbot
+UICorner_34.Parent = Aimbot
 
 Aimlock.Name = "Aimlock"
 Aimlock.Parent = LocalF
@@ -1100,207 +528,8 @@ Aimlock.Font = Enum.Font.SourceSans
 Aimlock.Text = "AimLock"
 Aimlock.TextColor3 = Color3.fromRGB(0, 0, 0)
 Aimlock.TextSize = 18.000
-Aimlock.MouseButton1Down:connect(function()
-	getgenv().Prediction = 0.12257688599789	
-	getgenv().AimPart = "HumanoidRootPart"	
-	getgenv().Key = "Q"	
-	getgenv().DisableKey = "Q"	
 
-	getgenv().FOV = true	
-	getgenv().ShowFOV = false	
-	getgenv().FOVSize = 55	
-
-	--// Variables (Service)	
-
-	local Players = game:GetService("Players")	
-	local RS = game:GetService("RunService")	
-	local WS = game:GetService("Workspace")	
-	local GS = game:GetService("GuiService")	
-	local SG = game:GetService("StarterGui")	
-
-	--// Variables (regular)	
-
-	local LP = Players.LocalPlayer	
-	local Mouse = LP:GetMouse()	
-	local Camera = WS.CurrentCamera	
-	local GetGuiInset = GS.GetGuiInset	
-
-	local AimlockState = true	
-	local Locked	
-	local Victim	
-
-	local SelectedKey = getgenv().Key	
-	local SelectedDisableKey = getgenv().DisableKey	
-
-	--// Notification function	
-
-	function Notify(tx)	
-		SG:SetCore("SendNotification", {	
-			Title = "VDragon Camlock",	
-			Text = tx,	
-			Duration = 5	
-		})	
-	end	
-
-	--// Check if aimlock is loaded	
-
-	if getgenv().Loaded == true then	
-		Notify("Aimlock is already loaded!")	
-		return	
-	end	
-
-	getgenv().Loaded = true	
-
-	--// FOV Circle	
-
-	local fov = Drawing.new("Circle")	
-	fov.Filled = false	
-	fov.Transparency = 1	
-	fov.Thickness = 1	
-	fov.Color = Color3.fromRGB(255, 255, 0)	
-	fov.NumSides = 1000	
-
-	--// Functions	
-
-	function update()	
-		if getgenv().FOV == true then	
-			if fov then	
-				fov.Radius = getgenv().FOVSize * 2	
-				fov.Visible = getgenv().ShowFOV	
-				fov.Position = Vector2.new(Mouse.X, Mouse.Y + GetGuiInset(GS).Y)	
-
-				return fov	
-			end	
-		end	
-	end	
-
-	function WTVP(arg)	
-		return Camera:WorldToViewportPoint(arg)	
-	end	
-
-	function WTSP(arg)	
-		return Camera.WorldToScreenPoint(Camera, arg)	
-	end	
-
-	function getClosest()	
-		local closestPlayer	
-		local shortestDistance = math.huge	
-
-		for i, v in pairs(game.Players:GetPlayers()) do	
-			local notKO = v.Character:WaitForChild("BodyEffects")["K.O"].Value ~= true	
-			local notGrabbed = v.Character:FindFirstChild("GRABBING_COINSTRAINT") == nil	
-
-			if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild(getgenv().AimPart) and notKO and notGrabbed then	
-				local pos = Camera:WorldToViewportPoint(v.Character.PrimaryPart.Position)	
-				local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).magnitude	
-
-				if (getgenv().FOV) then	
-					if (fov.Radius > magnitude and magnitude < shortestDistance) then	
-						closestPlayer = v	
-						shortestDistance = magnitude	
-					end	
-				else	
-					if (magnitude < shortestDistance) then	
-						closestPlayer = v	
-						shortestDistance = magnitude	
-					end	
-				end	
-			end	
-		end	
-		return closestPlayer	
-	end	
-
-	--// Checks if key is down	
-
-	Mouse.KeyDown:Connect(function(k)	
-		SelectedKey = SelectedKey:lower()	
-		SelectedDisableKey = SelectedDisableKey:lower()	
-		if k == SelectedKey then	
-			if AimlockState == true then	
-				Locked = not Locked	
-				if Locked then	
-					Victim = getClosest()	
-
-					Notify("Locked onto: "..tostring(Victim.Character.Humanoid.DisplayName))	
-				else	
-					if Victim ~= nil then	
-						Victim = nil	
-
-						Notify("Unlocked!")	
-					end	
-				end	
-			else	
-				Notify("Aimlock is not enabled!")	
-			end	
-		end	
-		if k == SelectedDisableKey then	
-			AimlockState = not AimlockState	
-		end	
-	end)	
-
-	--// Loop update FOV and loop camera lock onto target	
-
-	RS.RenderStepped:Connect(function()	
-		update()	
-		if AimlockState == true then	
-			if Victim ~= nil then	
-				Camera.CFrame = CFrame.new(Camera.CFrame.p, Victim.Character[getgenv().AimPart].Position + Victim.Character[getgenv().AimPart].Velocity*getgenv().Prediction)	
-			end	
-		end	
-	end)	
-	while wait() do
-		if getgenv().AutoPrediction == true then	
-			local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()	
-			local split = string.split(pingvalue,'(')	
-			local ping = tonumber(split[1])	
-			if ping < 225 then	
-				getgenv().Prediction = 1.4	
-			elseif ping < 215 then	
-				getgenv().Prediction = 1.2	
-			elseif ping < 205 then
-				getgenv().Prediction = 1.0	
-			elseif ping < 190 then
-				getgenv().Prediction = 0.10	
-			elseif ping < 180 then	
-				getgenv().Prediction = 0.12	
-			elseif ping < 170 then
-				getgenv().Prediction = 0.15	
-			elseif ping < 160 then
-				getgenv().Prediction = 0.18	
-			elseif ping < 150 then
-				getgenv().Prediction = 0.110	
-			elseif ping < 140 then	
-				getgenv().Prediction = 0.113	
-			elseif ping < 130 then	
-				getgenv().Prediction = 0.116	
-			elseif ping < 120 then	
-				getgenv().Prediction = 0.120	
-			elseif ping < 110 then	
-				getgenv().Prediction = 0.124	
-			elseif ping < 105 then	
-				getgenv().Prediction = 0.127	
-			elseif ping < 90 then	
-				getgenv().Prediction = 0.130	
-			elseif ping < 80 then	
-				getgenv().Prediction = 0.133	
-			elseif ping < 70 then	
-				getgenv().Prediction = 0.136	
-			elseif ping < 60 then	
-				getgenv().Prediction = 0.140	
-			elseif ping < 50 then	
-				getgenv().Prediction = 0.143	
-			elseif ping < 40 then	
-				getgenv().Prediction = 0.145	
-			elseif ping < 30 then	
-				getgenv().Prediction = 0.155	
-			elseif ping < 20 then	
-				getgenv().Prediction = 0.157	
-			end	
-		end	
-	end
-end)
-
-UICorner_33.Parent = Aimlock
+UICorner_35.Parent = Aimlock
 
 NoDelay.Name = "NoDelay"
 NoDelay.Parent = LocalF
@@ -1311,16 +540,8 @@ NoDelay.Font = Enum.Font.SourceSans
 NoDelay.Text = "No Delay"
 NoDelay.TextColor3 = Color3.fromRGB(0, 0, 0)
 NoDelay.TextSize = 18.000
-NoDelay.MouseButton1Down:connect(function()
-	local ReplicatedStorage = game.ReplicatedStorage
-	local Network = game.Network
-	local Delay = ReplicatedStorage.BulletHole.Delay
 
-	Delay.Position:Destroy()
-	Delay.Position = 0
-end)
-
-UICorner_34.Parent = NoDelay
+UICorner_36.Parent = NoDelay
 
 NoSlow.Name = "NoSlow"
 NoSlow.Parent = LocalF
@@ -1331,22 +552,8 @@ NoSlow.Font = Enum.Font.SourceSans
 NoSlow.Text = "No Slowdown"
 NoSlow.TextColor3 = Color3.fromRGB(0, 0, 0)
 NoSlow.TextSize = 18.000
-NoSlow.MouseButton1Down:connect(function()
-	antislow = L_175_arg0
-	repeat
-		wait(0.1)
-		local L_176_ = game.Players.LocalPlayer
-		local L_177_ = L_176_.Character.BodyEffects.Movement:FindFirstChild('NoJumping') or L_176_.Character.BodyEffects.Movement:FindFirstChild('ReduceWalk') or L_176_.Character.BodyEffects.Movement:FindFirstChild('NoWalkSpeed')
-		if L_177_ then
-			L_177_:Destroy()
-		end
-		if L_176_.Character.BodyEffects.Reload.Value == true then
-			L_176_.Character.BodyEffects.Reload.Value = false
-		end
-	until antislow == false
-end)
 
-UICorner_35.Parent = NoSlow
+UICorner_37.Parent = NoSlow
 
 NoRecoil.Name = "NoRecoil"
 NoRecoil.Parent = LocalF
@@ -1357,16 +564,8 @@ NoRecoil.Font = Enum.Font.SourceSans
 NoRecoil.Text = "No Recoil"
 NoRecoil.TextColor3 = Color3.fromRGB(0, 0, 0)
 NoRecoil.TextSize = 18.000
-NoRecoil.MouseButton1Down:connect(function()
-	local CurrentFocus = game:GetService("Workspace").CurrentCamera.CFrame
-	game:GetService("Workspace").CurrentCamera:Destroy()
-	local Instance = Instance.new("Camera", game:GetService("Workspace"))
-	Instance.CameraSubject = game:GetService("Players").LocalPlayer.Character.Humanoid
-	Instance.CameraType = Enum.CameraType.Custom
-	Instance.CFrame = CurrentFocus
-end)
 
-UICorner_36.Parent = NoRecoil
+UICorner_38.Parent = NoRecoil
 
 GodM.Name = "GodM"
 GodM.Parent = LocalF
@@ -1377,26 +576,8 @@ GodM.Font = Enum.Font.SourceSans
 GodM.Text = "God Mode"
 GodM.TextColor3 = Color3.fromRGB(0, 0, 0)
 GodM.TextSize = 18.000
-GodM.MouseButton1Down:connect(function()
-	local localPlayer = game:GetService('Players').LocalPlayer;
-	local localCharacter = localPlayer.Character;
-	localCharacter:FindFirstChildOfClass('Humanoid').Health = 0;
-	local newCharacter = localPlayer.CharacterAdded:Wait();
-	local spoofFolder = Instance.new('Folder');
-	spoofFolder.Name = 'FULLY_LOADED_CHAR';
-	spoofFolder.Parent = newCharacter;
-	newCharacter:WaitForChild('RagdollConstraints'):Destroy();
-	local spoofValue = Instance.new('BoolValue', newCharacter);
-	spoofValue.Name = 'RagdollConstraints';
-	local name = game.Players.LocalPlayer.Name
-	local lol =    game.Workspace:WaitForChild(name)
-	local money = Instance.new("Folder",game.Players.LocalPlayer.Character);money.Name = "FULLY_LOADED_CHAR"
-	lol.Parent = game.Workspace.Players
-	game.Players.LocalPlayer.Character:WaitForChild("BodyEffects")
-	game.Players.LocalPlayer.Character.BodyEffects.BreakingParts:Destroy()
-end)
 
-UICorner_37.Parent = GodM
+UICorner_39.Parent = GodM
 
 BulletP.Name = "BulletP"
 BulletP.Parent = LocalF
@@ -1407,159 +588,8 @@ BulletP.Font = Enum.Font.SourceSans
 BulletP.Text = "God Mode (Melee)"
 BulletP.TextColor3 = Color3.fromRGB(0, 0, 0)
 BulletP.TextSize = 18.000
-BulletP.MouseButton1Down:connect(function()
-	local localPlayer = game:GetService('Players').LocalPlayer;
-	local localCharacter = localPlayer.Character;
-	localCharacter:FindFirstChildOfClass('Humanoid').Health = 0;
-	local newCharacter = localPlayer.CharacterAdded:Wait();
-	local spoofFolder = Instance.new('Folder');
-	spoofFolder.Name = 'FULLY_LOADED_CHAR';
-	spoofFolder.Parent = newCharacter;
-	newCharacter:WaitForChild('BodyEffects').Dead:Destroy();
-	local spoofValue = Instance.new('BoolValue', newCharacter.BodyEffects);
-	spoofValue.Name = 'Dead';
-	wait()
-	--godblock/godbullet
-	local ps = game:GetService("Players")
-	local lp = ps.LocalPlayer
-	local char = lp.Character
 
-	char.BodyEffects.Armor:Destroy()
-	char.BodyEffects.Defense:Destroy()
-
-	local Clone1 = Instance.new("IntValue")
-	Clone1.Name = "Armor"
-	Clone1.Parent = char.BodyEffects
-
-	local Clone2 = Instance.new("NumberValue")
-	Clone2.Name = "Defense"
-	Clone2.Parent = char.BodyEffects
-	wait()
-	--walspeed
-	local d = {}
-	local e = {}
-	local g = {}
-	local h = {}
-	local j = {}
-	local k = {}
-	local function l()
-		local m = 3
-		local n = checkcaller
-		local o = getrawmetatable(game)
-		setreadonly(o, false)
-		local p = o.__index
-		local q = o.__newindex
-		local r = o.__namecall
-		o.__index =
-			newcclosure(
-				function(s, t)
-					if n() then
-					return p(s, t)
-				end
-					if d[s] and d[s][t] then
-					local u = d[s][t]
-					if u["IsCallback"] == true then
-						return u["Value"](s)
-					else
-						return u["Value"]
-					end
-				end
-					if g[t] then
-					local v = g[t]
-					if v["IsCallback"] == true then
-						return v["Value"](s)
-					else
-						return v["Value"]
-					end
-				end
-					if j[s] and j[s][t] then
-					return k[s][t]
-				end
-					return p(s, t)
-				end
-			)
-		o.__newindex =
-			newcclosure(
-				function(w, x, y)
-					if n() then
-					return q(w, x, y)
-				end
-					if e[w] and e[w][x] then
-					local z = e[w][x]
-					if z["Callback"] == nil then
-						return
-					else
-						z["Callback"](w, y)
-						return
-					end
-				end
-					if h[x] then
-					local A = h[x]
-					if A["Callback"] == nil then
-						return
-					else
-						A["Callback"](w, y)
-						return
-					end
-				end
-					if j[w] and j[w][x] then
-					local B = j[w][x]
-					if type(y) ~= B["Type"] then
-						error("bad argument #3 to '" .. x .. "' (" .. B["Type"] .. " expected, got " .. type(x) .. ")")
-					end
-					k[w][x] = y
-					return
-				end
-					return q(w, x, y)
-				end
-			)
-		local D = game.Players.LocalPlayer.Character.Humanoid
-		local function A(_)
-			local a0 = p(D, _)
-			local a1 = type(a0)
-			if not j[D] then
-				j[D] = {}
-			end
-			if not k[D] then
-				k[D] = {}
-			end
-			j[D][_] = {Type = a1}
-			k[D][_] = p(D, _)
-			local a2 = function()
-				j[D][_] = nil
-				k[D][_] = nil
-			end
-			return {remove = a2, Remove = a2}
-		end
-		A("WalkSpeed")
-		A("JumpPower")
-	end
-	l()
-	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 22
-	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-	wait()
-	while wait() do
-		game.ReplicatedStorage.MainEvent:FireServer("Block", true)
-		wait()
-		for _, v in next, game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):GetPlayingAnimationTracks() do
-			if (v.Animation.AnimationId:match("rbxassetid://2788354405")) then
-				v:Stop();
-			end;
-		end;
-	end
-	wait()
-	while wait() do
-		pcall(function()
-			for i, v in pairs(game.Players:GetPlayers()) do
-				if (workspace.Players[game.Players.LocalPlayer.Name].HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude < 1 then
-					game.ReplicatedStorage.MainEvent:FireServer("Block", true)
-				end
-			end
-		end)
-	end
-end)
-
-UICorner_38.Parent = BulletP
+UICorner_40.Parent = BulletP
 
 WelcomeF.Name = "WelcomeF"
 WelcomeF.Parent = main
@@ -1567,18 +597,18 @@ WelcomeF.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
 WelcomeF.Position = UDim2.new(0.166112959, 0, 0.191044778, 0)
 WelcomeF.Size = UDim2.new(0, 502, 0, 271)
 
-UICorner_39.Parent = WelcomeF
+UICorner_41.Parent = WelcomeF
 
-TextLabel_4.Parent = WelcomeF
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextLabel_4.Position = UDim2.new(0.233067736, 0, 0.697416902, 0)
-TextLabel_4.Size = UDim2.new(0, 267, 0, 50)
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "Welcome VDragon user"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextSize = 18.000
+TextLabel_5.Parent = WelcomeF
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel_5.Position = UDim2.new(0.233067736, 0, 0.697416902, 0)
+TextLabel_5.Size = UDim2.new(0, 267, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Welcome VDragon user"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 18.000
 
-UICorner_40.Parent = TextLabel_4
+UICorner_42.Parent = TextLabel_5
 
 Update.Name = "Update"
 Update.Parent = WelcomeF
@@ -1586,26 +616,37 @@ Update.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
 Update.Position = UDim2.new(0.0318725109, 0, 0, 0)
 Update.Size = UDim2.new(0, 186, 0, 180)
 
-TextLabel_5.Parent = Update
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
-TextLabel_5.Size = UDim2.new(0, 186, 0, 43)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "Updates"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextSize = 17.000
-
-UICorner_41.Parent = TextLabel_5
-
 TextLabel_6.Parent = Update
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
-TextLabel_6.Position = UDim2.new(0, 0, 0.394444466, 0)
-TextLabel_6.Size = UDim2.new(0, 186, 0, 50)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+TextLabel_6.Size = UDim2.new(0, 186, 0, 43)
 TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = "No Updates"
+TextLabel_6.Text = "Updates"
 TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_6.TextSize = 17.000
 
-UICorner_42.Parent = TextLabel_6
+UICorner_43.Parent = TextLabel_6
+
+TextLabel_7.Parent = Update
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+TextLabel_7.Position = UDim2.new(0, 0, 0.238888904, 0)
+TextLabel_7.Size = UDim2.new(0, 186, 0, 50)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Animations In Progress"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 17.000
+
+UICorner_44.Parent = TextLabel_7
+
+TextLabel_8.Parent = Update
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+TextLabel_8.Position = UDim2.new(0, 0, 0.538888931, 0)
+TextLabel_8.Size = UDim2.new(0, 186, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Better Reach And Lock"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 17.000
+
+UICorner_45.Parent = TextLabel_8
 
 Update_2.Name = "Update"
 Update_2.Parent = WelcomeF
@@ -1613,41 +654,217 @@ Update_2.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
 Update_2.Position = UDim2.new(0.595617533, 0, 0, 0)
 Update_2.Size = UDim2.new(0, 186, 0, 180)
 
-TextLabel_7.Parent = Update_2
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
-TextLabel_7.Size = UDim2.new(0, 186, 0, 43)
-TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = "Ranks"
-TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextSize = 17.000
-
-UICorner_43.Parent = TextLabel_7
-
-TextLabel_8.Parent = Update_2
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
-TextLabel_8.Position = UDim2.new(0, 0, 0.394444466, 0)
-TextLabel_8.Size = UDim2.new(0, 186, 0, 50)
-TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "Rank: Member"
-TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextSize = 17.000
-
-UICorner_44.Parent = TextLabel_8
-
-TextLabel_9.Parent = WelcomeF
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
-TextLabel_9.Position = UDim2.new(0.40239045, 0, 0.214022145, 0)
-TextLabel_9.Size = UDim2.new(0, 97, 0, 50)
+TextLabel_9.Parent = Update_2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+TextLabel_9.Size = UDim2.new(0, 186, 0, 43)
 TextLabel_9.Font = Enum.Font.SourceSans
-TextLabel_9.Text = "No Premiums"
+TextLabel_9.Text = "Ranks"
 TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_9.TextSize = 17.000
 
-UICorner_45.Parent = TextLabel_9
+UICorner_46.Parent = TextLabel_9
+
+TextLabel_10.Parent = Update_2
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+TextLabel_10.Position = UDim2.new(0, 0, 0.394444466, 0)
+TextLabel_10.Size = UDim2.new(0, 186, 0, 50)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Rank: Member"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 17.000
+
+UICorner_47.Parent = TextLabel_10
+
+TextLabel_11.Parent = WelcomeF
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+TextLabel_11.Position = UDim2.new(0.40239045, 0, 0.214022145, 0)
+TextLabel_11.Size = UDim2.new(0, 97, 0, 50)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "No Premiums"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 17.000
+
+UICorner_48.Parent = TextLabel_11
+
+AnimationsF.Name = "AnimationsF"
+AnimationsF.Parent = main
+AnimationsF.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+AnimationsF.Position = UDim2.new(0.166112959, 0, 0.191044778, 0)
+AnimationsF.Size = UDim2.new(0, 502, 0, 271)
+AnimationsF.Visible = false
+
+UICorner_49.Parent = AnimationsF
+
+Zombie.Name = "Zombie"
+Zombie.Parent = AnimationsF
+Zombie.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Zombie.Size = UDim2.new(0, 164, 0, 43)
+Zombie.Font = Enum.Font.SourceSans
+Zombie.Text = "Zombie"
+Zombie.TextColor3 = Color3.fromRGB(0, 0, 0)
+Zombie.TextSize = 17.000
+
+UICorner_50.Parent = Zombie
+
+Astronaut.Name = "Astronaut"
+Astronaut.Parent = AnimationsF
+Astronaut.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Astronaut.Position = UDim2.new(0.336653352, 0, 0, 0)
+Astronaut.Size = UDim2.new(0, 164, 0, 43)
+Astronaut.Font = Enum.Font.SourceSans
+Astronaut.Text = "Astronaut"
+Astronaut.TextColor3 = Color3.fromRGB(0, 0, 0)
+Astronaut.TextSize = 17.000
+
+UICorner_51.Parent = Astronaut
+
+Toy.Name = "Toy"
+Toy.Parent = AnimationsF
+Toy.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Toy.Position = UDim2.new(0.673306763, 0, 0, 0)
+Toy.Size = UDim2.new(0, 164, 0, 43)
+Toy.Font = Enum.Font.SourceSans
+Toy.Text = "Toy"
+Toy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Toy.TextSize = 17.000
+
+UICorner_52.Parent = Toy
+
+Stylish.Name = "Stylish"
+Stylish.Parent = AnimationsF
+Stylish.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Stylish.Position = UDim2.new(0, 0, 0.206642061, 0)
+Stylish.Size = UDim2.new(0, 164, 0, 43)
+Stylish.Font = Enum.Font.SourceSans
+Stylish.Text = "Stylish"
+Stylish.TextColor3 = Color3.fromRGB(0, 0, 0)
+Stylish.TextSize = 17.000
+
+UICorner_53.Parent = Stylish
+
+Rthro.Name = "Rthro"
+Rthro.Parent = AnimationsF
+Rthro.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Rthro.Position = UDim2.new(0.336653352, 0, 0.206642061, 0)
+Rthro.Size = UDim2.new(0, 164, 0, 43)
+Rthro.Font = Enum.Font.SourceSans
+Rthro.Text = "Rthro"
+Rthro.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rthro.TextSize = 17.000
+
+UICorner_54.Parent = Rthro
+
+Robot.Name = "Robot"
+Robot.Parent = AnimationsF
+Robot.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Robot.Position = UDim2.new(0.673306763, 0, 0.206642061, 0)
+Robot.Size = UDim2.new(0, 164, 0, 43)
+Robot.Font = Enum.Font.SourceSans
+Robot.Text = "Robot"
+Robot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Robot.TextSize = 17.000
+
+UICorner_55.Parent = Robot
+
+OldSchool.Name = "OldSchool"
+OldSchool.Parent = AnimationsF
+OldSchool.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+OldSchool.Position = UDim2.new(0, 0, 0.420664191, 0)
+OldSchool.Size = UDim2.new(0, 164, 0, 43)
+OldSchool.Font = Enum.Font.SourceSans
+OldSchool.Text = "OldSchool"
+OldSchool.TextColor3 = Color3.fromRGB(0, 0, 0)
+OldSchool.TextSize = 17.000
+
+UICorner_56.Parent = OldSchool
+
+Cartoony.Name = "Cartoony"
+Cartoony.Parent = AnimationsF
+Cartoony.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Cartoony.Position = UDim2.new(0.336653382, 0, 0.420664191, 0)
+Cartoony.Size = UDim2.new(0, 164, 0, 43)
+Cartoony.Font = Enum.Font.SourceSans
+Cartoony.Text = "Cartoony"
+Cartoony.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cartoony.TextSize = 17.000
+
+UICorner_57.Parent = Cartoony
+
+Ninja.Name = "Ninja"
+Ninja.Parent = AnimationsF
+Ninja.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Ninja.Position = UDim2.new(0.673306763, 0, 0.420664191, 0)
+Ninja.Size = UDim2.new(0, 164, 0, 43)
+Ninja.Font = Enum.Font.SourceSans
+Ninja.Text = "Ninja"
+Ninja.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ninja.TextSize = 17.000
+
+UICorner_58.Parent = Ninja
+
+Bubbly.Name = "Bubbly"
+Bubbly.Parent = AnimationsF
+Bubbly.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Bubbly.Position = UDim2.new(0, 0, 0.623616219, 0)
+Bubbly.Size = UDim2.new(0, 164, 0, 43)
+Bubbly.Font = Enum.Font.SourceSans
+Bubbly.Text = "Bubbly"
+Bubbly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bubbly.TextSize = 17.000
+
+UICorner_59.Parent = Bubbly
+
+Mage.Name = "Mage"
+Mage.Parent = AnimationsF
+Mage.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Mage.Position = UDim2.new(0.336653382, 0, 0.623616219, 0)
+Mage.Size = UDim2.new(0, 164, 0, 43)
+Mage.Font = Enum.Font.SourceSans
+Mage.Text = "Mage"
+Mage.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mage.TextSize = 17.000
+
+UICorner_60.Parent = Mage
+
+Elder.Name = "Elder"
+Elder.Parent = AnimationsF
+Elder.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Elder.Position = UDim2.new(0.673306763, 0, 0.623616219, 0)
+Elder.Size = UDim2.new(0, 164, 0, 43)
+Elder.Font = Enum.Font.SourceSans
+Elder.Text = "Elder"
+Elder.TextColor3 = Color3.fromRGB(0, 0, 0)
+Elder.TextSize = 17.000
+
+UICorner_61.Parent = Elder
+
+Werewolf.Name = "Werewolf"
+Werewolf.Parent = AnimationsF
+Werewolf.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Werewolf.Position = UDim2.new(0, 0, 0.819188178, 0)
+Werewolf.Size = UDim2.new(0, 164, 0, 43)
+Werewolf.Font = Enum.Font.SourceSans
+Werewolf.Text = "Werewolf"
+Werewolf.TextColor3 = Color3.fromRGB(0, 0, 0)
+Werewolf.TextSize = 17.000
+
+UICorner_62.Parent = Werewolf
+
+Levi.Name = "Levi"
+Levi.Parent = AnimationsF
+Levi.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Levi.Position = UDim2.new(0.336653382, 0, 0.819188178, 0)
+Levi.Size = UDim2.new(0, 164, 0, 43)
+Levi.Font = Enum.Font.SourceSans
+Levi.Text = "Levitation"
+Levi.TextColor3 = Color3.fromRGB(0, 0, 0)
+Levi.TextSize = 17.000
+
+UICorner_63.Parent = Levi
 
 -- Scripts:
 
-local function BCNOEF_fake_script() -- WelcomeButton.LocalScript 
+local function FEAHTLE_fake_script() -- WelcomeButton.LocalScript 
 	local script = Instance.new('LocalScript', WelcomeButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1656,12 +873,12 @@ local function BCNOEF_fake_script() -- WelcomeButton.LocalScript
 		script.Parent.Parent.Parent.LocalF.Visible = false
 		script.Parent.Parent.Parent.LocationsF.Visible = false
 		script.Parent.Parent.Parent.WelcomeF.Visible = true
+		script.Parent.Parent.Parent.AnimationsF.Visible = false
 	end)
 	
-	
 end
-coroutine.wrap(BCNOEF_fake_script)()
-local function IHNNMM_fake_script() -- LocalButton.LocalScript 
+coroutine.wrap(FEAHTLE_fake_script)()
+local function ASEAHLX_fake_script() -- LocalButton.LocalScript 
 	local script = Instance.new('LocalScript', LocalButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1670,11 +887,12 @@ local function IHNNMM_fake_script() -- LocalButton.LocalScript
 		script.Parent.Parent.Parent.LocalF.Visible = true
 		script.Parent.Parent.Parent.LocationsF.Visible = false
 		script.Parent.Parent.Parent.WelcomeF.Visible = false
+		script.Parent.Parent.Parent.AnimationsF.Visible = false
 	end)
 	
 end
-coroutine.wrap(IHNNMM_fake_script)()
-local function VQEBKJ_fake_script() -- LocationsButton.LocalScript 
+coroutine.wrap(ASEAHLX_fake_script)()
+local function ZZJAS_fake_script() -- LocationsButton.LocalScript 
 	local script = Instance.new('LocalScript', LocationsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1683,12 +901,14 @@ local function VQEBKJ_fake_script() -- LocationsButton.LocalScript
 		script.Parent.Parent.Parent.LocalF.Visible = false
 		script.Parent.Parent.Parent.LocationsF.Visible = true
 		script.Parent.Parent.Parent.WelcomeF.Visible = false
+		script.Parent.Parent.Parent.AnimationsF.Visible = false
 	end)
 	
 	
+	
 end
-coroutine.wrap(VQEBKJ_fake_script)()
-local function EKZG_fake_script() -- ExtraButton.LocalScript 
+coroutine.wrap(ZZJAS_fake_script)()
+local function COCAPSB_fake_script() -- ExtraButton.LocalScript 
 	local script = Instance.new('LocalScript', ExtraButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1697,19 +917,19 @@ local function EKZG_fake_script() -- ExtraButton.LocalScript
 		script.Parent.Parent.Parent.LocalF.Visible = false
 		script.Parent.Parent.Parent.LocationsF.Visible = false
 		script.Parent.Parent.Parent.WelcomeF.Visible = false
+		script.Parent.Parent.Parent.AnimationsF.Visible = false
 	end)
 	
-	
 end
-coroutine.wrap(EKZG_fake_script)()
-local function LIRULPE_fake_script() -- CreditsButton.LocalScript 
+coroutine.wrap(COCAPSB_fake_script)()
+local function VNIJJ_fake_script() -- CreditsButton.LocalScript 
 	local script = Instance.new('LocalScript', CreditsButton)
 
 	
 	
 end
-coroutine.wrap(LIRULPE_fake_script)()
-local function XHSEEU_fake_script() -- CreditsButton.LocalScript 
+coroutine.wrap(VNIJJ_fake_script)()
+local function WKSVQZ_fake_script() -- CreditsButton.LocalScript 
 	local script = Instance.new('LocalScript', CreditsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1718,26 +938,1196 @@ local function XHSEEU_fake_script() -- CreditsButton.LocalScript
 		script.Parent.Parent.Parent.LocalF.Visible = false
 		script.Parent.Parent.Parent.LocationsF.Visible = false
 		script.Parent.Parent.Parent.WelcomeF.Visible = false
+		script.Parent.Parent.Parent.AnimationsF.Visible = false
 	end)
 	
 end
-coroutine.wrap(XHSEEU_fake_script)()
-local function RONEA_fake_script() -- TextLabel.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel)
+coroutine.wrap(WKSVQZ_fake_script)()
+local function OOISYSG_fake_script() -- AnimationsButton.LocalScript 
+	local script = Instance.new('LocalScript', AnimationsButton)
 
-	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
 	
-	counter = 0
-	
-	while wait(0.4)do
-		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
-	
-		counter = counter + 0.01
-	end
 	
 end
-coroutine.wrap(RONEA_fake_script)()
-local function RTRFYSW_fake_script() -- main.LocalScript 
+coroutine.wrap(OOISYSG_fake_script)()
+local function PBYR_fake_script() -- AnimationsButton.LocalScript 
+	local script = Instance.new('LocalScript', AnimationsButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsF.Visible = false
+		script.Parent.Parent.Parent.ExtraF.Visible = false
+		script.Parent.Parent.Parent.LocalF.Visible = false
+		script.Parent.Parent.Parent.LocationsF.Visible = false
+		script.Parent.Parent.Parent.WelcomeF.Visible = false
+		script.Parent.Parent.Parent.AnimationsF.Visible = true
+	end)
+	
+end
+coroutine.wrap(PBYR_fake_script)()
+local function YBBDHU_fake_script() -- AutoF.LocalScript 
+	local script = Instance.new('LocalScript', AutoF)
+
+	script.Parent.MouseButton1Click:connect(function()
+	
+	local humanoid = game.Players.LocalPlayer.Character.Humanoid
+	local tool = game.Players.LocalPlayer.Backpack.Combat
+	
+	local function getMoneyAroundMe() 
+		wait(0.5)
+		for i, money in ipairs(game.Workspace.Ignored.Drop:GetChildren()) do
+			if money.Name == "MoneyDrop" and (money.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= 20 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = money.CFrame
+				fireclickdetector(money.ClickDetector)
+				wait(0.5)
+			end  
+		end
+	end
+	
+	
+	local function startAutoFarm() 
+		humanoid:EquipTool(tool)
+	
+		for i, v in ipairs(game.Workspace.Cashiers:GetChildren()) do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Open.CFrame * CFrame.new(0, 0, 2)
+	
+			for i = 0, 15 do
+				wait(0.5)
+				tool:Activate()
+			end
+	
+			getMoneyAroundMe()
+	
+		end
+	
+	
+	
+		wait(0.5)
+	
+	end
+	
+		startAutoFarm()
+	end)
+end
+coroutine.wrap(YBBDHU_fake_script)()
+local function JYKA_fake_script() -- Shazam.LocalScript 
+	local script = Instance.new('LocalScript', Shazam)
+
+	script.Parent.MouseButton1Click:connect(function()
+		repeat wait() 
+		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+		local mouse = game.Players.LocalPlayer:GetMouse() 
+		repeat wait() until mouse
+		local plr = game.Players.LocalPlayer 
+		local torso = plr.Character.Head 
+		local flying = false
+		local deb = true 
+		local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+		local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+		local maxspeed = 5000
+		local speed = 5000 
+		local hover = Instance.new("Animation", game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"))hover.Name="Hover"hover.AnimationId="rbxassetid://3541114300"
+		local fly = Instance.new("Animation", game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"))fly.Name="Fly"fly.AnimationId = "rbxassetid://3541044388"
+	
+		function Fly() 
+			local bg = Instance.new("BodyGyro", torso) 
+			bg.P = 9e4 
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+			bg.cframe = torso.CFrame 
+			bv = Instance.new("BodyVelocity", torso) 
+			bv.velocity = Vector3.new(0,0.1,0) 
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+			repeat wait() 
+				plr.Character.Humanoid.PlatformStand = true 
+				if ctrl.l + ctrl.r ~= 100000 or ctrl.f + ctrl.b ~= 10000 then 
+					speed = speed+.0+(speed/maxspeed) 
+					if speed > maxspeed then 
+						speed = maxspeed 
+					end 
+				elseif not (ctrl.l + ctrl.r ~= 5 or ctrl.f + ctrl.b ~= 5) and speed ~= 5 then 
+					speed = speed-5
+					if speed > 5 then 
+						speed = -2 
+					end 
+				end 
+				if (ctrl.l + ctrl.r) ~= 5 or (ctrl.f + ctrl.b) ~= 5 then 
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+				elseif (ctrl.l + ctrl.r) == 5 and (ctrl.f + ctrl.b) == 5 and speed ~= 5 then 
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+				else 
+					bv.velocity = Vector3.new(0,0.1,0) 
+				end 
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+			until not flying 
+			for _, v in next, game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):GetPlayingAnimationTracks() do
+				if (v.Animation.AnimationId:match("rbxassetid")) then
+					v:Stop()
+				end
+			end
+			ctrl = {f = 0, b = 0, l = 0, r = 0} 
+			lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+			speed = 5 
+			bg:Destroy() 
+			bv:Destroy() 
+			plr.Character.Humanoid.PlatformStand = false 
+		end 
+		mouse.KeyDown:connect(function(key) 
+			if key:lower() == "c" then 
+				if flying then flying = false 
+				else 
+					flying = true
+					plr.Character.Humanoid:LoadAnimation(hover):Play()
+					Fly() 
+				end
+			elseif key:lower() == "w" then 
+				ctrl.f = 20
+				wait()
+				if flying == true then
+					plr.Character.Humanoid:LoadAnimation(fly):Play()
+				end
+			elseif key:lower() == "s" then
+				ctrl.b = -20
+			elseif key:lower() == "a" then
+				ctrl.l = -20
+			elseif key:lower() == "d" then
+				ctrl.r = 20
+			end 
+		end) 
+		mouse.KeyUp:connect(function(key) 
+			if key:lower() == "w" then
+				ctrl.f = 0
+				wait()
+				if flying == true then
+					plr.Character.Humanoid:LoadAnimation(hover):Play()
+				end
+			elseif key:lower() == "s" then 
+				ctrl.b = 0
+				wait()
+				if flying == true then
+					plr.Character.Humanoid:LoadAnimation(hover):Play()
+				end
+			elseif key:lower() == "a" then 
+				ctrl.l = 0
+				wait()
+				if flying == true then
+					plr.Character.Humanoid:LoadAnimation(hover):Play()
+				end
+			elseif key:lower() == "d" then 
+				ctrl.r = 0
+				wait()
+				if flying == true then
+					plr.Character.Humanoid:LoadAnimation(hover):Play()
+				end
+			end 
+		end)
+		Fly()
+	end)
+	
+end
+coroutine.wrap(JYKA_fake_script)()
+local function ATQWB_fake_script() -- Crash.LocalScript 
+	local script = Instance.new('LocalScript', Crash)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+	end)
+	
+end
+coroutine.wrap(ATQWB_fake_script)()
+local function PXMXZFE_fake_script() -- bat.LocalScript 
+	local script = Instance.new('LocalScript', bat)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-82.86, 22.244, -291.56)
+	end)
+	
+end
+coroutine.wrap(PXMXZFE_fake_script)()
+local function KUCHZAK_fake_script() -- admin.LocalScript 
+	local script = Instance.new('LocalScript', admin)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-729.895, -37.642, -885.8)
+	end)
+	
+end
+coroutine.wrap(KUCHZAK_fake_script)()
+local function NYCU_fake_script() -- bank.LocalScript 
+	local script = Instance.new('LocalScript', bank)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-485.668, 23.631, -285.169)
+	end)
+	
+end
+coroutine.wrap(NYCU_fake_script)()
+local function GDUZHO_fake_script() -- boxing.LocalScript 
+	local script = Instance.new('LocalScript', boxing)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-236.006, 23.151, -1120.531)
+	end)
+	
+end
+coroutine.wrap(GDUZHO_fake_script)()
+local function LECKA_fake_script() -- HoodF.LocalScript 
+	local script = Instance.new('LocalScript', HoodF)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-75.795, 23.701, -633.72)
+	end)
+	
+end
+coroutine.wrap(LECKA_fake_script)()
+local function FAVDY_fake_script() -- gunU.LocalScript 
+	local script = Instance.new('LocalScript', gunU)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(481, 48, -619)
+	end)
+	
+end
+coroutine.wrap(FAVDY_fake_script)()
+local function MXXQJJM_fake_script() -- gunD.LocalScript 
+	local script = Instance.new('LocalScript', gunD)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-582, 7.172, -739.015)
+	end)
+end
+coroutine.wrap(MXXQJJM_fake_script)()
+local function FAKDVSM_fake_script() -- ufo.LocalScript 
+	local script = Instance.new('LocalScript', ufo)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(71.565, 142.926, -690.33)
+	end)
+	
+end
+coroutine.wrap(FAKDVSM_fake_script)()
+local function JGHUZWD_fake_script() -- Prison.LocalScript 
+	local script = Instance.new('LocalScript', Prison)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-294.162, 22.644, -111.716)
+	end)
+	
+end
+coroutine.wrap(JGHUZWD_fake_script)()
+local function XWSVO_fake_script() -- Sewers.LocalScript 
+	local script = Instance.new('LocalScript', Sewers)
+
+	script.Parent.MouseButton1Click:connect(function()
+	
+	end)
+end
+coroutine.wrap(XWSVO_fake_script)()
+local function CCIQZ_fake_script() -- fly.LocalScript 
+	local script = Instance.new('LocalScript', fly)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local L_152_
+		local L_153_ = game.Players.LocalPlayer
+		IYMouse = L_153_:GetMouse()
+		IYMouse.KeyDown:connect(
+			function(L_154_arg0)
+				if L_154_arg0 == "x" then
+					if L_152_ then
+						L_152_ = false
+						fly()
+					else
+						L_152_ = true
+						NOFLY()
+					end
+				end
+			end
+		)
+		for L_155_forvar0, L_156_forvar1 in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+			if L_156_forvar1:IsA("BasePart") and L_156_forvar1.CanCollide == true then
+				L_156_forvar1.CanCollide = false
+			end
+		end
+		FLYING = false
+		QEfly = true
+		iyflyspeed = 7
+		vehicleflyspeed = 7
+		function sFLY(L_157_arg0)
+			repeat
+				wait()
+			until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and
+				game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+			repeat
+				wait()
+			until IYMouse
+			local L_158_ = game.Players.LocalPlayer.Character.LowerTorso
+			local L_159_ = {
+				F = 0,
+				B = 0,
+				L = 0,
+				R = 0,
+				Q = 0,
+				E = 0
+			}
+			local L_160_ = {
+				F = 0,
+				B = 0,
+				L = 0,
+				R = 0,
+				Q = 0,
+				E = 0
+			}
+			local L_161_ = 5
+			local function L_162_func()
+				FLYING = true
+				local L_163_ = Instance.new("BodyGyro", L_158_)
+				local L_164_ = Instance.new("BodyVelocity", L_158_)
+				L_163_.P = 9e4
+				L_163_.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+				L_163_.cframe = L_158_.CFrame
+				L_164_.velocity = Vector3.new(0, 0, 0)
+				L_164_.maxForce = Vector3.new(9e9, 9e9, 9e9)
+				spawn(
+					function()
+						repeat
+							wait()
+							if not L_157_arg0 and game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then
+								game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand =
+									true
+							end
+							if L_159_.L + L_159_.R ~= 0 or L_159_.F + L_159_.B ~= 0 or L_159_.Q + L_159_.E ~= 0 then
+								L_161_ = 50
+							elseif not (L_159_.L + L_159_.R ~= 0 or L_159_.F + L_159_.B ~= 0 or L_159_.Q + L_159_.E ~= 0) and L_161_ ~= 0 then
+								L_161_ = 0
+							end
+							if L_159_.L + L_159_.R ~= 0 or L_159_.F + L_159_.B ~= 0 or L_159_.Q + L_159_.E ~= 0 then
+								L_164_.velocity =
+									(workspace.CurrentCamera.CoordinateFrame.lookVector * (L_159_.F + L_159_.B) +
+										workspace.CurrentCamera.CoordinateFrame *
+										CFrame.new(L_159_.L + L_159_.R, (L_159_.F + L_159_.B + L_159_.Q + L_159_.E) * 0.2, 0).p -
+										workspace.CurrentCamera.CoordinateFrame.p) *
+									L_161_
+								L_160_ = {
+									F = L_159_.F,
+									B = L_159_.B,
+									L = L_159_.L,
+									R = L_159_.R
+								}
+							elseif L_159_.L + L_159_.R == 0 and L_159_.F + L_159_.B == 0 and L_159_.Q + L_159_.E == 0 and L_161_ ~= 0 then
+								L_164_.velocity =
+									(workspace.CurrentCamera.CoordinateFrame.lookVector * (L_160_.F + L_160_.B) +
+										workspace.CurrentCamera.CoordinateFrame *
+										CFrame.new(L_160_.L + L_160_.R, (L_160_.F + L_160_.B + L_159_.Q + L_159_.E) * 0.2, 0).p -
+										workspace.CurrentCamera.CoordinateFrame.p) *
+									L_161_
+							else
+								L_164_.velocity = Vector3.new(0, 0, 0)
+							end
+							L_163_.cframe = workspace.CurrentCamera.CoordinateFrame
+						until not FLYING
+						L_159_ = {
+							F = 0,
+							B = 0,
+							L = 0,
+							R = 0,
+							Q = 0,
+							E = 0
+						}
+						L_160_ = {
+							F = 0,
+							B = 0,
+							L = 0,
+							R = 0,
+							Q = 0,
+							E = 0
+						}
+						L_161_ = 0
+						L_163_:destroy()
+						L_164_:destroy()
+						if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then
+							game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand = false
+						end
+					end
+				)
+			end
+			IYMouse.KeyDown:connect(
+				function(L_165_arg0)
+					if L_165_arg0:lower() == "w" then
+						if L_157_arg0 then
+							L_159_.F = vehicleflyspeed
+						else
+							L_159_.F = iyflyspeed
+						end
+					elseif L_165_arg0:lower() == "s" then
+						if L_157_arg0 then
+							L_159_.B = -vehicleflyspeed
+						else
+							L_159_.B = -iyflyspeed
+						end
+					elseif L_165_arg0:lower() == "a" then
+						if L_157_arg0 then
+							L_159_.L = -vehicleflyspeed
+						else
+							L_159_.L = -iyflyspeed
+						end
+					elseif L_165_arg0:lower() == "d" then
+						if L_157_arg0 then
+							L_159_.R = vehicleflyspeed
+						else
+							L_159_.R = iyflyspeed
+						end
+					elseif QEfly and L_165_arg0:lower() == "e" then
+						if L_157_arg0 then
+							L_159_.Q = vehicleflyspeed * 2
+						else
+							L_159_.Q = iyflyspeed * 2
+						end
+					elseif QEfly and L_165_arg0:lower() == "q" then
+						if L_157_arg0 then
+							L_159_.E = -vehicleflyspeed * 2
+						else
+							L_159_.E = -iyflyspeed * 2
+						end
+					end
+				end
+			)
+			IYMouse.KeyUp:connect(
+				function(L_166_arg0)
+					if L_166_arg0:lower() == "w" then
+						L_159_.F = 0
+					elseif L_166_arg0:lower() == "s" then
+						L_159_.B = 0
+					elseif L_166_arg0:lower() == "a" then
+						L_159_.L = 0
+					elseif L_166_arg0:lower() == "d" then
+						L_159_.R = 0
+					elseif L_166_arg0:lower() == "e" then
+						L_159_.Q = 0
+					elseif L_166_arg0:lower() == "q" then
+						L_159_.E = 0
+					end
+				end
+			)
+			L_162_func()
+		end
+		function NOFLY()
+			FLYING = false
+			game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand = true
+		end
+		function fly()
+			NOFLY()
+			wait()
+			sFLY()
+		end
+	end)
+	
+end
+coroutine.wrap(CCIQZ_fake_script)()
+local function QKVDZYT_fake_script() -- reachy.LocalScript 
+	local script = Instance.new('LocalScript', reachy)
+
+	script.Parent.MouseButton1Click:connect(function()
+		
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "VDragon Reach",
+			Text = "Reach: On",
+			Button1 = "Ok",
+			Duration = 5
+		})
+	
+		game:GetService('RunService'):BindToRenderStep("Reach", 0 , function()
+			local success, err = pcall(function()
+				if game.Players.LocalPlayer.Character.BodyEffects.Attacking.Value == true then
+					for i,v in pairs(game:GetService('Players'):GetChildren()) do
+						if (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.LeftHand.Position).Magnitude <= 50 then
+							if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+								if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):FindFirstChild('Handle') then
+									firetouchinterest(game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Handle, v.Character.UpperTorso, 0)
+								else
+									firetouchinterest(game.Players.LocalPlayer.Character['RightHand'], v.Character.UpperTorso, 0)
+									firetouchinterest(game.Players.LocalPlayer.Character['LeftHand'], v.Character.UpperTorso, 0)
+									firetouchinterest(game.Players.LocalPlayer.Character['RightFoot'], v.Character.UpperTorso, 0)
+									firetouchinterest(game.Players.LocalPlayer.Character['LeftFoot'], v.Character.UpperTorso, 0)
+									firetouchinterest(game.Players.LocalPlayer.Character['RightLowerLeg'], v.Character.UpperTorso, 0)
+									firetouchinterest(game.Players.LocalPlayer.Character['LeftLowerLeg'], v.Character.UpperTorso, 0)
+								end
+							end
+						end
+					end
+				end
+			end)
+		end)
+	end)
+	
+end
+coroutine.wrap(QKVDZYT_fake_script)()
+local function QALCT_fake_script() -- toolR.LocalScript 
+	local script = Instance.new('LocalScript', toolR)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "VDragon Tool Reach",
+			Text = "Reminder: Must Be Holding Tool",
+			Button1 = "Ok",
+			Duration = 5
+		})
+		
+		for i, v in pairs(game:GetService"Players".LocalPlayer.Character:GetChildren()) do
+			if v:isA("Tool") then
+				local a = Instance.new("SelectionBox", v.Handle)
+				a.Adornee = v.Handle
+				v.Handle.Size = Vector3.new(50, 50, 50)
+				v.Handle.Transparency = 1
+				v.GripPos = Vector3.new(0, 0, 0)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(QALCT_fake_script)()
+local function NGPSR_fake_script() -- Aimbot.LocalScript 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	script.Parent.MouseButton1Click:connect(function()
+	
+	
+		-- Toggle
+		getgenv().Target = true
+		-- Configuration
+		getgenv().Key = Enum.KeyCode.Q
+		getgenv().Prediction = 0.13093
+		getgenv().ChatMode = false
+		getgenv().NotifMode = true
+		getgenv().PartMode = true
+		getgenv().AirshotFunccc = false
+		getgenv().Partz = "HumanoidRootPart"
+		getgenv().AutoPrediction = true
+		--
+		_G.Types = {
+			Ball = Enum.PartType.Ball,
+			Block = Enum.PartType.Block, 
+			Cylinder = Enum.PartType.Cylinder
+		}
+	
+		--variables                 
+		local Tracer = Instance.new("Part", game.Workspace)
+		Tracer.Name = "gay"	
+		Tracer.Anchored = true		
+		Tracer.CanCollide = false
+		Tracer.Transparency = 0.8
+		Tracer.Parent = game.Workspace	
+		Tracer.Shape = _G.Types.Block
+		Tracer.Size = Vector3.new(10,10,10)
+		Tracer.Color = Color3.fromRGB(199,128,128)
+	
+		--
+		local plr = game.Players.LocalPlayer
+		local mouse = plr:GetMouse()
+		local Runserv = game:GetService("RunService")
+	
+		circle = Drawing.new("Circle")
+		circle.Color = Color3.fromRGB(0,0,174)
+		circle.Thickness = 0
+		circle.NumSides = 732
+		circle.Radius = 120
+		circle.Thickness = 0
+		circle.Transparency = 0.7
+		circle.Visible = true
+		circle.Filled = false
+	
+		Runserv.RenderStepped:Connect(function()
+			circle.Position = Vector2.new(mouse.X,mouse.Y+35)
+		end)
+	
+		local guimain = Instance.new("Folder", game.CoreGui)
+		local CC = game:GetService"Workspace".CurrentCamera
+		local LocalMouse = game.Players.LocalPlayer:GetMouse()
+		local Locking = false
+	
+	
+		--
+		if getgenv().valiansh == true then
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "VDragon Lock",
+				Text = "Already Loaded!",
+				Duration = 5
+	
+			})
+			return
+		end
+	
+		getgenv().valiansh = true
+	
+		local UserInputService = game:GetService("UserInputService")
+	
+		UserInputService.InputBegan:Connect(function(keygo,ok)
+			if (not ok) then
+				if (keygo.KeyCode == getgenv().Key) then
+					if getgenv().Target == true then
+						Locking = not Locking
+	
+						if Locking then
+							Plr =  getClosestPlayerToCursor()
+							if getgenv().ChatMode then
+								local A_1 = "Target: "..tostring(Plr.Character.Humanoid.DisplayName) local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+							end	
+							if getgenv().NotifMode then
+								game.StarterGui:SetCore("SendNotification", {
+									Title = "VDragon";
+									Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName);
+	
+								})
+							end
+						elseif not Locking then
+							if getgenv().ChatMode then
+								local A_1 = "Unlocked!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+							end	
+							if getgenv().NotifMode then
+								game.StarterGui:SetCore("SendNotification", {
+									Title = "VDragon",
+									Text = "Unlocked",
+									Duration = 5
+								})
+							elseif getgenv().Target == false then
+								game.StarterGui:SetCore("SendNotification", {
+									Title = "VDragon",
+									Text = "Target isn't enabled",
+									Duration = 5
+	
+								})
+	
+							end
+	
+	
+						end     end   
+				end
+			end
+		end)
+	
+		function getClosestPlayerToCursor()
+			local closestPlayer
+			local shortestDistance = circle.Radius
+	
+			for i, v in pairs(game.Players:GetPlayers()) do
+				if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("LowerTorso") then
+					local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+					local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(LocalMouse.X, LocalMouse.Y)).magnitude
+					if magnitude < shortestDistance then
+						closestPlayer = v
+						shortestDistance = magnitude
+					end
+				end
+			end
+			return closestPlayer
+		end
+		--
+		if getgenv().PartMode then
+			game:GetService"RunService".Stepped:connect(function()
+				if Locking and Plr.Character and Plr.Character:FindFirstChild("LowerTorso") then
+					Tracer.CFrame = CFrame.new(Plr.Character.LowerTorso.Position+(Plr.Character.LowerTorso.Velocity*Prediction))
+				else
+					Tracer.CFrame = CFrame.new(0, 9999, 0)
+	
+				end
+			end)
+		end
+	
+	
+	
+		--
+		local rawmetatable = getrawmetatable(game)
+		local old = rawmetatable.__namecall
+		setreadonly(rawmetatable, false)
+		rawmetatable.__namecall = newcclosure(function(...)
+			local args = {...}
+			if Locking and getnamecallmethod() == "FireServer" and args[2] == "UpdateMousePos" then
+				args[3] = Plr.Character[getgenv().Partz].Position+(Plr.Character[getgenv().Partz].Velocity*Prediction)
+				return old(unpack(args))
+			end
+			return old(...)
+		end)
+	
+	
+		if getgenv().AirshotFunccc == true then
+	
+			if Plr.Character.Humanoid.Jump == true and Plr.Character.Humanoid.FloorMaterial == Enum.Material.Air then
+				getgenv().Partz = "HumanoidRootPart"
+			else
+				Plr.Character:WaitForChild("Humanoid").StateChanged:Connect(function(old,new)
+					if new == Enum.HumanoidStateType.Freefall then
+						getgenv().Partz = "HumanoidRootPart"
+					else
+						getgenv().Partz = "LowerTorso"
+					end
+				end)
+			end
+		end
+		---
+		while wait() do
+			if getgenv().AutoPrediction == true then
+				local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+				local split = string.split(pingvalue,'(')
+				local ping = tonumber(split[1])
+				if ping < 130 then
+					getgenv().Prediction = 0.13779897899
+				elseif ping < 125 then
+					getgenv().Prediction = 0.13093
+				elseif ping < 110 then
+					getgenv().Prediction = 0.13093
+				elseif ping < 105 then
+					getgenv().Prediction = 0.1222444767
+				elseif ping < 90 then
+					getgenv().Prediction = 0.1322
+				elseif ping < 80 then
+					getgenv().Prediction = 0.113
+				elseif ping < 70 then
+					getgenv().Prediction = 0.13093
+				elseif ping < 60 then
+					getgenv().Prediction = 0.13093
+				elseif ping < 50 then
+					getgenv().Prediction = 0.13093
+				elseif ping < 40 then
+					getgenv().Prediction = 0.13093
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(NGPSR_fake_script)()
+local function FYUZYYE_fake_script() -- Aimlock.LocalScript 
+	local script = Instance.new('LocalScript', Aimlock)
+
+	script.Parent.MouseButton1Click:connect(function()
+		getgenv().Prediction = 0.12474787576	
+		getgenv().AimPart = "HumanoidRootPart"	
+		getgenv().Key = "Q"	
+		getgenv().DisableKey = "Q"	
+	
+		getgenv().FOV = true	
+		getgenv().ShowFOV = false	
+		getgenv().FOVSize = 55	
+	
+		--// Variables (Service)	
+	
+		local Players = game:GetService("Players")	
+		local RS = game:GetService("RunService")	
+		local WS = game:GetService("Workspace")	
+		local GS = game:GetService("GuiService")	
+		local SG = game:GetService("StarterGui")	
+	
+		--// Variables (regular)	
+	
+		local LP = Players.LocalPlayer	
+		local Mouse = LP:GetMouse()	
+		local Camera = WS.CurrentCamera	
+		local GetGuiInset = GS.GetGuiInset	
+	
+		local AimlockState = true	
+		local Locked	
+		local Victim	
+	
+		local SelectedKey = getgenv().Key	
+		local SelectedDisableKey = getgenv().DisableKey	
+	
+		--// Notification function	
+	
+		function Notify(tx)	
+			SG:SetCore("SendNotification", {	
+				Title = "VDragon Camlock",	
+				Text = tx,	
+				Duration = 5	
+			})	
+		end	
+	
+		--// Check if aimlock is loaded	
+	
+		if getgenv().Loaded == true then	
+			Notify("Aimlock is already loaded!")	
+			return	
+		end	
+	
+		getgenv().Loaded = true	
+	
+		--// FOV Circle	
+	
+		local fov = Drawing.new("Circle")	
+		fov.Filled = false	
+		fov.Transparency = 1	
+		fov.Thickness = 1	
+		fov.Color = Color3.fromRGB(255, 255, 0)	
+		fov.NumSides = 1000	
+	
+		--// Functions	
+	
+		function update()	
+			if getgenv().FOV == true then	
+				if fov then	
+					fov.Radius = getgenv().FOVSize * 2	
+					fov.Visible = getgenv().ShowFOV	
+					fov.Position = Vector2.new(Mouse.X, Mouse.Y + GetGuiInset(GS).Y)	
+	
+					return fov	
+				end	
+			end	
+		end	
+	
+		function WTVP(arg)	
+			return Camera:WorldToViewportPoint(arg)	
+		end	
+	
+		function WTSP(arg)	
+			return Camera.WorldToScreenPoint(Camera, arg)	
+		end	
+	
+		function getClosest()	
+			local closestPlayer	
+			local shortestDistance = math.huge	
+	
+			for i, v in pairs(game.Players:GetPlayers()) do	
+				local notKO = v.Character:WaitForChild("BodyEffects")["K.O"].Value ~= true	
+				local notGrabbed = v.Character:FindFirstChild("GRABBING_COINSTRAINT") == nil	
+	
+				if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild(getgenv().AimPart) and notKO and notGrabbed then	
+					local pos = Camera:WorldToViewportPoint(v.Character.PrimaryPart.Position)	
+					local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).magnitude	
+	
+					if (getgenv().FOV) then	
+						if (fov.Radius > magnitude and magnitude < shortestDistance) then	
+							closestPlayer = v	
+							shortestDistance = magnitude	
+						end	
+					else	
+						if (magnitude < shortestDistance) then	
+							closestPlayer = v	
+							shortestDistance = magnitude	
+						end	
+					end	
+				end	
+			end	
+			return closestPlayer	
+		end	
+	
+		--// Checks if key is down	
+	
+		Mouse.KeyDown:Connect(function(k)	
+			SelectedKey = SelectedKey:lower()	
+			SelectedDisableKey = SelectedDisableKey:lower()	
+			if k == SelectedKey then	
+				if AimlockState == true then	
+					Locked = not Locked	
+					if Locked then	
+						Victim = getClosest()	
+	
+						Notify("Locked onto: "..tostring(Victim.Character.Humanoid.DisplayName))	
+					else	
+						if Victim ~= nil then	
+							Victim = nil	
+	
+							Notify("Unlocked!")	
+						end	
+					end	
+				else	
+					Notify("Aimlock is not enabled!")	
+				end	
+			end	
+			if k == SelectedDisableKey then	
+				AimlockState = not AimlockState	
+			end	
+		end)	
+	
+		--// Loop update FOV and loop camera lock onto target	
+	
+		RS.RenderStepped:Connect(function()	
+			update()	
+			if AimlockState == true then	
+				if Victim ~= nil then	
+					Camera.CFrame = CFrame.new(Camera.CFrame.p, Victim.Character[getgenv().AimPart].Position + Victim.Character[getgenv().AimPart].Velocity*getgenv().Prediction)	
+				end	
+			end	
+		end)	
+		while wait() do
+			if getgenv().AutoPrediction == true then	
+				local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()	
+				local split = string.split(pingvalue,'(')	
+				local ping = tonumber(split[1])	
+				if ping < 225 then	
+					getgenv().Prediction = 1.4	
+				elseif ping < 215 then	
+					getgenv().Prediction = 1.2	
+				elseif ping < 205 then
+					getgenv().Prediction = 1.0	
+				elseif ping < 190 then
+					getgenv().Prediction = 0.10	
+				elseif ping < 180 then	
+					getgenv().Prediction = 0.12	
+				elseif ping < 170 then
+					getgenv().Prediction = 0.15	
+				elseif ping < 160 then
+					getgenv().Prediction = 0.18	
+				elseif ping < 150 then
+					getgenv().Prediction = 0.110	
+				elseif ping < 140 then	
+					getgenv().Prediction = 0.113	
+				elseif ping < 130 then	
+					getgenv().Prediction = 0.116	
+				elseif ping < 120 then	
+					getgenv().Prediction = 0.120	
+				elseif ping < 110 then	
+					getgenv().Prediction = 0.124	
+				elseif ping < 105 then	
+					getgenv().Prediction = 0.127	
+				elseif ping < 90 then	
+					getgenv().Prediction = 0.130	
+				elseif ping < 80 then	
+					getgenv().Prediction = 0.133	
+				elseif ping < 70 then	
+					getgenv().Prediction = 0.136	
+				elseif ping < 60 then	
+					getgenv().Prediction = 0.140	
+				elseif ping < 50 then	
+					getgenv().Prediction = 0.143	
+				elseif ping < 40 then	
+					getgenv().Prediction = 0.145	
+				elseif ping < 30 then	
+					getgenv().Prediction = 0.155	
+				elseif ping < 20 then	
+					getgenv().Prediction = 0.157	
+				end	
+			end	
+		end
+	end)
+	
+end
+coroutine.wrap(FYUZYYE_fake_script)()
+local function UTEAP_fake_script() -- NoDelay.LocalScript 
+	local script = Instance.new('LocalScript', NoDelay)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local ReplicatedStorage = game.ReplicatedStorage
+		local Network = game.Network
+		local Delay = ReplicatedStorage.BulletHole.Delay
+	
+		Delay.Position:Destroy()
+		Delay.Position = 0
+	end)
+	
+end
+coroutine.wrap(UTEAP_fake_script)()
+local function XTQM_fake_script() -- NoSlow.LocalScript 
+	local script = Instance.new('LocalScript', NoSlow)
+
+	script.Parent.MouseButton1Click:connect(function()
+		antislow = L_175_arg0
+		repeat
+			wait(0.1)
+			local L_176_ = game.Players.LocalPlayer
+			local L_177_ = L_176_.Character.BodyEffects.Movement:FindFirstChild('NoJumping') or L_176_.Character.BodyEffects.Movement:FindFirstChild('ReduceWalk') or L_176_.Character.BodyEffects.Movement:FindFirstChild('NoWalkSpeed')
+			if L_177_ then
+				L_177_:Destroy()
+			end
+			if L_176_.Character.BodyEffects.Reload.Value == true then
+				L_176_.Character.BodyEffects.Reload.Value = false
+			end
+		until antislow == false
+	end)
+	
+end
+coroutine.wrap(XTQM_fake_script)()
+local function BYTV_fake_script() -- NoRecoil.LocalScript 
+	local script = Instance.new('LocalScript', NoRecoil)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local CurrentFocus = game:GetService("Workspace").CurrentCamera.CFrame
+		game:GetService("Workspace").CurrentCamera:Destroy()
+		local Instance = Instance.new("Camera", game:GetService("Workspace"))
+		Instance.CameraSubject = game:GetService("Players").LocalPlayer.Character.Humanoid
+		Instance.CameraType = Enum.CameraType.Custom
+		Instance.CFrame = CurrentFocus
+	end)
+	
+end
+coroutine.wrap(BYTV_fake_script)()
+local function OESYYKJ_fake_script() -- GodM.LocalScript 
+	local script = Instance.new('LocalScript', GodM)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local localPlayer = game:GetService('Players').LocalPlayer;
+		local localCharacter = localPlayer.Character;
+		localCharacter:FindFirstChildOfClass('Humanoid').Health = 0;
+		local newCharacter = localPlayer.CharacterAdded:Wait();
+		local spoofFolder = Instance.new('Folder');
+		spoofFolder.Name = 'FULLY_LOADED_CHAR';
+		spoofFolder.Parent = newCharacter;
+		newCharacter:WaitForChild('RagdollConstraints'):Destroy();
+		local spoofValue = Instance.new('BoolValue', newCharacter);
+		spoofValue.Name = 'RagdollConstraints';
+		local name = game.Players.LocalPlayer.Name
+		local lol =    game.Workspace:WaitForChild(name)
+		local money = Instance.new("Folder",game.Players.LocalPlayer.Character);money.Name = "FULLY_LOADED_CHAR"
+		lol.Parent = game.Workspace.Players
+		game.Players.LocalPlayer.Character:WaitForChild("BodyEffects")
+		game.Players.LocalPlayer.Character.BodyEffects.BreakingParts:Destroy()
+	end)
+	
+end
+coroutine.wrap(OESYYKJ_fake_script)()
+local function XTHGV_fake_script() -- BulletP.LocalScript 
+	local script = Instance.new('LocalScript', BulletP)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local localPlayer = game:GetService('Players').LocalPlayer;
+		local localCharacter = localPlayer.Character;
+		localCharacter:FindFirstChildOfClass('Humanoid').Health = 0;
+		local newCharacter = localPlayer.CharacterAdded:Wait();
+		local spoofFolder = Instance.new('Folder');
+		spoofFolder.Name = 'FULLY_LOADED_CHAR';
+		spoofFolder.Parent = newCharacter;
+		newCharacter:WaitForChild('BodyEffects').Dead:Destroy();
+		local spoofValue = Instance.new('BoolValue', newCharacter.BodyEffects);
+		spoofValue.Name = 'Dead';
+		wait()
+		--godblock/godbullet
+		local ps = game:GetService("Players")
+		local lp = ps.LocalPlayer
+		local char = lp.Character
+	
+		char.BodyEffects.Armor:Destroy()
+		char.BodyEffects.Defense:Destroy()
+	
+		local Clone1 = Instance.new("IntValue")
+		Clone1.Name = "Armor"
+		Clone1.Parent = char.BodyEffects
+	
+		local Clone2 = Instance.new("NumberValue")
+		Clone2.Name = "Defense"
+		Clone2.Parent = char.BodyEffects
+		wait()
+		--walspeed
+		local d = {}
+		local e = {}
+		local g = {}
+		local h = {}
+		local j = {}
+		local k = {}
+		local function l()
+			local m = 3
+			local n = checkcaller
+			local o = getrawmetatable(game)
+			setreadonly(o, false)
+			local p = o.__index
+			local q = o.__newindex
+			local r = o.__namecall
+			o.__index =
+				newcclosure(
+					function(s, t)
+						if n() then
+						return p(s, t)
+					end
+						if d[s] and d[s][t] then
+						local u = d[s][t]
+						if u["IsCallback"] == true then
+							return u["Value"](s)
+						else
+							return u["Value"]
+						end
+					end
+						if g[t] then
+						local v = g[t]
+						if v["IsCallback"] == true then
+							return v["Value"](s)
+						else
+							return v["Value"]
+						end
+					end
+						if j[s] and j[s][t] then
+						return k[s][t]
+					end
+						return p(s, t)
+					end
+				)
+			o.__newindex =
+				newcclosure(
+					function(w, x, y)
+						if n() then
+						return q(w, x, y)
+					end
+						if e[w] and e[w][x] then
+						local z = e[w][x]
+						if z["Callback"] == nil then
+							return
+						else
+							z["Callback"](w, y)
+							return
+						end
+					end
+						if h[x] then
+						local A = h[x]
+						if A["Callback"] == nil then
+							return
+						else
+							A["Callback"](w, y)
+							return
+						end
+					end
+						if j[w] and j[w][x] then
+						local B = j[w][x]
+						if type(y) ~= B["Type"] then
+							error("bad argument #3 to '" .. x .. "' (" .. B["Type"] .. " expected, got " .. type(x) .. ")")
+						end
+						k[w][x] = y
+						return
+					end
+						return q(w, x, y)
+					end
+				)
+			local D = game.Players.LocalPlayer.Character.Humanoid
+			local function A(_)
+				local a0 = p(D, _)
+				local a1 = type(a0)
+				if not j[D] then
+					j[D] = {}
+				end
+				if not k[D] then
+					k[D] = {}
+				end
+				j[D][_] = {Type = a1}
+				k[D][_] = p(D, _)
+				local a2 = function()
+					j[D][_] = nil
+					k[D][_] = nil
+				end
+				return {remove = a2, Remove = a2}
+			end
+			A("WalkSpeed")
+			A("JumpPower")
+		end
+		l()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 22
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+		wait()
+		while wait() do
+			game.ReplicatedStorage.MainEvent:FireServer("Block", true)
+			wait()
+			for _, v in next, game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):GetPlayingAnimationTracks() do
+				if (v.Animation.AnimationId:match("rbxassetid://2788354405")) then
+					v:Stop();
+				end;
+			end;
+		end
+		wait()
+		while wait() do
+			pcall(function()
+				for i, v in pairs(game.Players:GetPlayers()) do
+					if (workspace.Players[game.Players.LocalPlayer.Name].HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude < 1 then
+						game.ReplicatedStorage.MainEvent:FireServer("Block", true)
+					end
+				end
+			end)
+		end
+	end)
+end
+coroutine.wrap(XTHGV_fake_script)()
+local function AACHG_fake_script() -- main.LocalScript 
 	local script = Instance.new('LocalScript', main)
 
 	player = game.Players.LocalPlayer
@@ -1753,4 +2143,32 @@ local function RTRFYSW_fake_script() -- main.LocalScript
 	end)
 	
 end
-coroutine.wrap(RTRFYSW_fake_script)()
+coroutine.wrap(AACHG_fake_script)()
+local function HQEA_fake_script() -- Zombie.LocalScript 
+	local script = Instance.new('LocalScript', Zombie)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		while true do
+			wait(1)
+			for i, player in ipairs(game.Players:GetChildren()) do
+				local Animate = game.Players.LocalPlayer.Character.Animate
+				Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+				Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+				Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+				Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+				Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+				Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+				Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+				game.Players.LocalPlayer.Character.Humanoid.Jump = false
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(HQEA_fake_script)()
+local function GGTLZ_fake_script() -- Astronaut.LocalScript 
+	local script = Instance.new('LocalScript', Astronaut)
+
+	
+end
+coroutine.wrap(GGTLZ_fake_script)()
